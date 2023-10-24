@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bMXHpQTkZDQ3GdqiA/b64qjebO9xSTZmbVnqbI0/1mzHZfku/fekOx063oTqE8JQr+NakRgEA9f8SiEhHF2aHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaFurnitureExpanded-Props\\1.4\\Source\\VFEProps\\VFEProps\\VFEProps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}
