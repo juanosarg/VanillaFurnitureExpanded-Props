@@ -14,7 +14,7 @@
       </shadowData>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -64,7 +64,7 @@
 		<color>(25,25,25)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -114,7 +114,7 @@
 		<color>(25,25,25)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -164,7 +164,7 @@
 		<color>(25,25,25)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -214,7 +214,7 @@
 		<color>(25,25,25)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -266,7 +266,7 @@
 		<color>(255,255,255)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -316,7 +316,7 @@
 		<color>(255,255,255)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -366,7 +366,7 @@
 		<color>(255,255,255)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -416,7 +416,7 @@
 		<color>(255,255,255)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -469,7 +469,7 @@
 		<color>(180,173,150)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -519,7 +519,7 @@
 		<color>(180,173,150)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -569,7 +569,7 @@
 		<color>(180,173,150)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -619,7 +619,7 @@
 		<color>(180,173,150)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -671,7 +671,7 @@
 		<color>(44,83,140)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -721,7 +721,7 @@
 		<color>(44,83,140)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -771,7 +771,7 @@
 		<color>(44,83,140)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -821,7 +821,7 @@
 		<color>(44,83,140)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -873,7 +873,7 @@
 		<color>(178,72,66)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -923,7 +923,7 @@
 		<color>(178,72,66)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -973,7 +973,7 @@
 		<color>(178,72,66)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>
@@ -1023,7 +1023,7 @@
 		<color>(178,72,66)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <researchPrerequisites><li>VehicleProps</li></researchPrerequisites>
+    
     <altitudeLayer>Building</altitudeLayer>
     <defaultPlacingRot>South</defaultPlacingRot>
     <castEdgeShadows>True</castEdgeShadows>

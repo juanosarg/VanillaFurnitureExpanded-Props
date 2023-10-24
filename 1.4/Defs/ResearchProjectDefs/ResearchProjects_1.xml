@@ -11,17 +11,7 @@
     <researchViewY>1.40</researchViewY>
 		<tab>VFE_PropsandDecor_Tab</tab>
   </ResearchProjectDef>
-  
-    <ResearchProjectDef>
-    <defName>VehicleProps</defName>
-    <label>vehicle props</label>
-    <description>Unlocks a wide selection of land vehicle props.</description>
-    <baseCost>800</baseCost>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>1.40</researchViewY>
-		<tab>VFE_PropsandDecor_Tab</tab>
-  </ResearchProjectDef>
+
   
     <ResearchProjectDef>
     <defName>PlantProps</defName>
