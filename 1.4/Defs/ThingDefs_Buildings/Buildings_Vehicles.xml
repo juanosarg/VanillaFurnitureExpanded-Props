@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase">
+
+  <ThingDef Name="VFEPD_ColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
+    <building>
+        <paintable>true</paintable>
+    </building>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_CarForklift</defName>
     <label>forklift</label>
     <description>An industrial style forklift.</description>
@@ -12,6 +20,8 @@
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
+	  <color>(252,244,134)</color>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <tickerType>Normal</tickerType>
 
@@ -20,33 +30,20 @@
     <castEdgeShadows>True</castEdgeShadows>
     <blockWind>true</blockWind>
     <passability>Impassable</passability>
-    <fillPercent>0.5</fillPercent>
+    <fillPercent>0</fillPercent>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <repairEffect>ConstructMetal</repairEffect>
     <statBases>
       <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
       <Mass>200</Mass>
       <Flammability>0.2</Flammability>
     </statBases>
     <size>(2,4)</size>
-    <costList>
-      <Steel>100</Steel>
-	  <Chemfuel>20</Chemfuel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+   
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>VehicleProps</designatorDropdown>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <wickTicks>360</wickTicks>
-        <explosiveRadius>7.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explodeOnKilled>true</explodeOnKilled>
-        <startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-        <extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-      </li>
-    </comps>
+
+   
   </ThingDef>
   
   <ThingDef ParentName="BuildingBase">
