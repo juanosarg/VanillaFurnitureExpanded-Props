@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-     <ThingDef ParentName="BuildingBase">
+     <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_FoodBox</defName>
     <label>empty food boxes</label>
     <description>A stack of empty food boxes.</description>
@@ -9,8 +9,9 @@
       <texPath>Things/Building/FarmProps/FoodBox</texPath>
       <graphicClass>Graphic_Random</graphicClass>
 	  <drawSize>(2,2)</drawSize>
+	  <color>(255,191,97)</color>
     </graphicData>
-    <researchPrerequisites><li>FarmProps</li></researchPrerequisites>
+ 
     <altitudeLayer>Building</altitudeLayer>
 	<rotatable>false</rotatable>
     <passability>PassThroughOnly</passability>
@@ -20,21 +21,20 @@
 	</building>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
       <Mass>5</Mass>
 	  <Beauty>1</Beauty>
       <Flammability>1</Flammability>
     </statBases>
     <size>(2,2)</size>
-    <costList>
-      <WoodLog>5</WoodLog>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>FarmProps</designatorDropdown>
+
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+   
+  
+  <!--<ThingDef ParentName="BuildingBase">
     <defName>VFEPD_HayBaleLarge</defName>
     <label>large hay bale</label>
     <description>A large roll of hay.</description>
@@ -278,6 +278,6 @@
 	      <isInert>true</isInert>
 	</building>
   </ThingDef>
-  
+  -->
 
 </Defs>

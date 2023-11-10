@@ -124,7 +124,7 @@ namespace VFEProps
                     Widgets.DrawBoxSolidWithOutline(rectIcon, fillColor, borderColor, 2);
                     Rect rectIconInside = rectIcon.ContractedBy(2);
 
-                    GUI.DrawTexture(rectIconInside, props[i].prop.graphic.MatSouth.mainTexture, ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                    GUI.DrawTexture(rectIconInside, props[i].prop.uiIcon, ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, Color.white, 0f, 0f);
 
                     TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
                     if (Widgets.ButtonInvisible(rectIcon))

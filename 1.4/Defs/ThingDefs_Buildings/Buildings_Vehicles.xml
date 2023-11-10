@@ -1,21 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef Name="VFEPD_ColourableVehicleBase" ParentName="BuildingBase" Abstract="True">
-		<building>
-			<paintable>true</paintable>
-		</building>
-		<tickerType>Normal</tickerType>
-		<comps>
-			<li Class="CompProperties_Explosive">
-				<wickTicks>360</wickTicks>
-				<explosiveRadius>7.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<explodeOnKilled>true</explodeOnKilled>
-				<startWickHitPointsPercent>0.3</startWickHitPointsPercent>
-				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
-			</li>
-		</comps>
-	</ThingDef>
+	
 	<ThingDef ParentName="VFEPD_ColourableVehicleBase">
 		<defName>VFEPD_CarForklift</defName>
 		<label>forklift</label>
@@ -59,7 +44,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(25,25,25)</color>
+			<color>(60,60,60)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
@@ -91,7 +76,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(25,25,25)</color>
+			<color>(60,60,60)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
@@ -123,7 +108,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(25,25,25)</color>
+			<color>(60,60,60)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
@@ -155,7 +140,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(25,25,25)</color>
+			<color>(60,60,60)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>

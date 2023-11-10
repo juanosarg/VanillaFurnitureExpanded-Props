@@ -1,47 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef Abstract="True" ParentName="BuildingBase" Name="DecalBase">
-		<description>A small floor decal.</description>
-		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
-			<color>(255,255,255,65)</color>
-		</graphicData>
-		<rotatable>true</rotatable>
-		<altitudeLayer>Floor</altitudeLayer>
-		
-		<passability>Standable</passability>
-		<pathCost>0</pathCost>
-		<drawerType>MapMeshOnly</drawerType>
-		<building>
-			<isInert>true</isInert>
-			<isEdifice>false</isEdifice>
-			<paintable>true</paintable>
-		</building>
-		
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0</Flammability>
-			<Beauty>1</Beauty>
-		</statBases>
-		<size>(1,1)</size>
-		
-		<uiIconScale>1</uiIconScale>
-		<filthLeaving Inherit="False"/>
-		<clearBuildingArea>false</clearBuildingArea>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_SubstractSilver">
-				
-			</li>
-		
-		</comps>
-	</ThingDef>
+
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalArrowLong</defName>
 		<label>arrow long symbol</label>

@@ -15,10 +15,31 @@
 		<icon>UI/Categories/VFE_AlphaCategory</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Medieval</defName>
+		<label>medieval</label>
+		<description>Medieval props fit for a grand castle or a simple peasant village.</description>
+		<priority>3</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Farm</defName>
+		<label>farm</label>
+		<description>Farm props such as hay and wood piles, wooden carts, etc.</description>
+		<priority>4</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Vehicles</defName>
 		<label>vehicles</label>
-		<description>Vehicles props.</description>
+		<description>Vehicles props. Trucks, cars, lorries, etc</description>
 		<priority>10</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Spaceships</defName>
+		<label>spaceships</label>
+		<description>Spaceship props. All kinds of vehicles designed for space travel.</description>
+		<priority>11</priority>
 		<icon>UI/Categories/VFE_AlphaCategory</icon>
 	</VFEProps.PropCategoryDef>
 

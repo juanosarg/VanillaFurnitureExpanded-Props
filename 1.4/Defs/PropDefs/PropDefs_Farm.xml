@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Farm_1</defName>
+		<category>VFE_PropCategory_Farm</category>		
+		<priority>1</priority>
+		<prop>VFEPD_FoodBox</prop>
+	</VFEProps.PropDef>
+
+	
+	
+</Defs>
