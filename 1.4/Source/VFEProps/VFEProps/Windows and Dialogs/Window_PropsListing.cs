@@ -5,13 +5,14 @@ using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
+using Verse.Noise;
 using static System.Collections.Specialized.BitVector32;
 
 namespace VFEProps
 {
     public class Window_PropsListing : Window
     {
-     
+
         public PropCategoryDef category;
         public override Vector2 InitialSize => new Vector2(620f, 500f);
         private Vector2 scrollPosition = new Vector2(0, 0);
@@ -22,9 +23,7 @@ namespace VFEProps
 
         public Window_PropsListing(PropCategoryDef category)
         {
-         
-            this.category = category;           
-           // closeOnClickedOutside = true;
+            this.category = category;
             draggable = true;
             resizeable = true;
             preventCameraMotion = false;
@@ -44,7 +43,34 @@ namespace VFEProps
             Find.DesignatorManager.Select(designator);
         }
 
-       
+        public bool CheckSilverInMap(int cost)
+        {
+            int totalSilver = 0;
+            List<SlotGroup> allGroupsListForReading = Find.CurrentMap.haulDestinationManager.AllGroupsListForReading;
+            for (int i = 0; i < allGroupsListForReading.Count; i++)
+            {
+                foreach (Thing heldThing in allGroupsListForReading[i].HeldThings)
+                {
+                    Thing innerIfMinified = heldThing.GetInnerIfMinified();
+                    if (innerIfMinified.def.CountAsResource)
+                    {
+                        if (innerIfMinified.def == ThingDefOf.Silver)
+                        {
+                            totalSilver += innerIfMinified.stackCount;
+                        }
+
+                    }
+                }
+            }
+            if (totalSilver >= cost)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+
 
         public override void DoWindowContents(Rect inRect)
         {
@@ -70,8 +96,8 @@ namespace VFEProps
 
             var searchRect = new Rect(160, 5, 150, 24);
             searchKey = Widgets.TextField(searchRect, searchKey);
-            var searchLabel = new Rect(320,5,100,32);
-            Widgets.Label(searchLabel, "VFE_PrefabSearch".Translate());         
+            var searchLabel = new Rect(320, 5, 100, 32);
+            Widgets.Label(searchLabel, "VFE_PrefabSearch".Translate());
 
             if (Widgets.ButtonImage(new Rect(outRect.xMax - 18f - 4f, 2f, 18f, 18f), TexButton.CloseXSmall))
             {
@@ -79,12 +105,13 @@ namespace VFEProps
             }
 
             outRect.yMin += 20f;
-            List<PropDef> props = (from x in DefDatabase<PropDef>.AllDefsListForReading where (x.category == category || x.categories?.Contains(category)==true) && x.prop.label.ToLower().Contains(searchKey.ToLower())
-                                       
-                                       select x).OrderBy(x => x.priority).ToList();
+            List<PropDef> props = (from x in DefDatabase<PropDef>.AllDefsListForReading
+                                   where (x.category == category || x.categories?.Contains(category) == true) && x.prop.label.ToLower().Contains(searchKey.ToLower())
+
+                                   select x).OrderBy(x => x.priority).ToList();
 
 
-            var viewRect = new Rect(0f, 40, outRect.width - 16f, 188 * ((props.Count / columnCount)+1));
+            var viewRect = new Rect(0f, 40, outRect.width - 16f, 104 * ((props.Count / columnCount) + 1)+20);
             Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
             try
             {
@@ -99,21 +126,28 @@ namespace VFEProps
 
                     GUI.DrawTexture(rectIconInside, props[i].prop.graphic.MatSouth.mainTexture, ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, Color.white, 0f, 0f);
 
-                    TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].description);
+                    TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
                     if (Widgets.ButtonInvisible(rectIcon))
                     {
 
-                        CreateDesignator(props[i].prop);
-                       
-                        
-                        
+                        if (CheckSilverInMap(props[i].silverCost))
+                        {
+                            CreateDesignator(props[i].prop);
+                        }
+                        else
+                        {
+                            Messages.Message("VFE_NoSilver".Translate(props[i].silverCost), null, MessageTypeDefOf.RejectInput);
+                        }
                     }
 
                     Text.Font = GameFont.Tiny;
                     var prefabTextRect = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 64 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
                     Widgets.Label(prefabTextRect, props[i].prop.LabelCap.CapitalizeFirst());
-                   
 
+                    Rect silverIcon = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
+                    GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                    Rect silverDetails = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount) + 24, viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
+                    Widgets.Label(silverDetails, (props[i].silverCost).ToString());
 
                 }
             }
@@ -122,5 +156,7 @@ namespace VFEProps
                 Widgets.EndScrollView();
             }
         }
+
+        
     }
 }

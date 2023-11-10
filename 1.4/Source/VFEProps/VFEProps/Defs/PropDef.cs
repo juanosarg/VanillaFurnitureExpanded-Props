@@ -15,6 +15,7 @@ namespace VFEProps
         public PropCategoryDef category;
         public List<PropCategoryDef> categories;
         public ThingDef prop;
+        public int silverCost=0;
         
     }
 }

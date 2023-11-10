@@ -293,6 +293,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building\Building_SubstractsSilver.cs" />
+    <Compile Include="Comps\CompProperties_SubstractSilver.cs" />
+    <Compile Include="Comps\CompSubstractSilver.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\PropCategoryDef.cs" />
     <Compile Include="Defs\PropDef.cs" />
