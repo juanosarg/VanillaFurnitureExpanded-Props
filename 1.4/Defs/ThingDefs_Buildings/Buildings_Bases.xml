@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef Name="VFEPD_ColourableVehicleBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
 		<building>
 			<paintable>true</paintable>
 		</building>
@@ -17,9 +18,13 @@
 		</comps>
 	</ThingDef>
 	<ThingDef Name="VFEPD_ColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
 		<building>
 			<paintable>true</paintable>
 		</building>
+	</ThingDef>
+	<ThingDef Name="VFEPD_NonColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
 		
 	</ThingDef>
 	<ThingDef Abstract="True" ParentName="BuildingBase" Name="DecalBase">
@@ -63,5 +68,36 @@
 	<ThingDef Abstract="True" ParentName="DecalBase" Name="DecalBaseLarge">
 		<description>A large floor decal.</description>
 		<size>(1,1)</size>
+	</ThingDef>
+	<ThingDef Abstract="True" ParentName="FurnitureWithQualityBase" Name="VPE_TableGatherSpotBase">
+		<description>People eat off tables when chairs are placed facing them.</description>
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>42</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<surfaceType>Eat</surfaceType>
+		<building>
+			<paintable>true</paintable>
+			<buildingTags>
+				<li>RitualFocus</li>
+			</buildingTags>
+		</building>
+		<uiOrder>2300</uiOrder>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_RitualFocus</li>
+		</placeWorkers>
 	</ThingDef>
 </Defs>

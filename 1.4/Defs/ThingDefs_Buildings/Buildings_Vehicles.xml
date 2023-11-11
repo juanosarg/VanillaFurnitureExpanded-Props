@@ -44,7 +44,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(60,60,60)</color>
+			<color>(180,173,150)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
@@ -76,7 +76,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(60,60,60)</color>
+			<color>(44,83,140)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
@@ -108,7 +108,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(60,60,60)</color>
+			<color>(178,72,66)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>

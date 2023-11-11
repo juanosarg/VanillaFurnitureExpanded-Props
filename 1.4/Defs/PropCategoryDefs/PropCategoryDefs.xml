@@ -29,6 +29,20 @@
 		<icon>UI/Categories/VFE_AlphaCategory</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Furniture</defName>
+		<label>furniture</label>
+		<description>Furniture that has no gameplay mechanic behind it, such as decorative armoires, mirrors, etc</description>
+		<priority>5</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Industrial</defName>
+		<label>industrial</label>
+		<description>Industrial props such as barrels, pallets, boxes and containers</description>
+		<priority>6</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Vehicles</defName>
 		<label>vehicles</label>
 		<description>Vehicles props. Trucks, cars, lorries, etc</description>

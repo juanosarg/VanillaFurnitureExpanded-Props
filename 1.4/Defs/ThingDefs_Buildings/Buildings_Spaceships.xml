@@ -77,7 +77,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(60,60,60)</color>
+			<color>(255,255,255)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
