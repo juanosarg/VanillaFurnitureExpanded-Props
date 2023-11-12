@@ -31,7 +31,7 @@
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Furniture</defName>
 		<label>furniture</label>
-		<description>Furniture that has no gameplay mechanic behind it, such as decorative armoires, mirrors, etc</description>
+		<description>Furniture that has no gameplay mechanic behind it, such as decorative armoires, mirrors, etc.</description>
 		<priority>5</priority>
 		<icon>UI/Categories/VFE_AlphaCategory</icon>
 	</VFEProps.PropCategoryDef>
@@ -43,9 +43,23 @@
 		<icon>UI/Categories/VFE_AlphaCategory</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Kitchen</defName>
+		<label>kitchen</label>
+		<description>Kitchen props such as cooking appliances, kitchen furniture, etc.</description>
+		<priority>7</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Power</defName>
+		<label>power</label>
+		<description>Props related to power structures, generators, gas tanks, etc.</description>
+		<priority>8</priority>
+		<icon>UI/Categories/VFE_AlphaCategory</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Vehicles</defName>
 		<label>vehicles</label>
-		<description>Vehicles props. Trucks, cars, lorries, etc</description>
+		<description>Vehicles props. Trucks, cars, lorries, etc.</description>
 		<priority>10</priority>
 		<icon>UI/Categories/VFE_AlphaCategory</icon>
 	</VFEProps.PropCategoryDef>

@@ -142,13 +142,22 @@ namespace VFEProps
 
                     Text.Font = GameFont.Tiny;
                     var prefabTextRect = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 64 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
-                    Widgets.Label(prefabTextRect, props[i].prop.LabelCap.CapitalizeFirst());
+                    string label;
+                    if (!props[i].shortLabel.NullOrEmpty())
+                    {
+                        label = props[i].shortLabel.CapitalizeFirst();
+                    }
+                    else
+                    {
+                        label = props[i].prop.LabelCap;
+                    }         
+                    
+                    Widgets.Label(prefabTextRect, label);
 
                     Rect silverIcon = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
                     GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
                     Rect silverDetails = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount) + 24, viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
                     Widgets.Label(silverDetails, (props[i].silverCost).ToString());
-
                 }
             }
             finally

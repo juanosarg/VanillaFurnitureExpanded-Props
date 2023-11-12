@@ -85,6 +85,29 @@
 		<priority>14</priority>
 		<prop>VFEPD_Planks</prop>
 	</VFEProps.PropDef>
-	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_15</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>15</priority>
+		<prop>VFEPD_Cone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_16</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>16</priority>
+		<prop>VFEPD_ConcreteBags</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_17</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>17</priority>
+		<prop>VFEPD_WaterTank</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_18</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>18</priority>
+		<prop>VFEPD_VentilationShaft</prop>
+	</VFEProps.PropDef>
 	
 </Defs>
