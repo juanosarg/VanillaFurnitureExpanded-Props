@@ -16,13 +16,20 @@
 				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
 			</li>
 		</comps>
-	</ThingDef>
-	<ThingDef Name="VFEPD_ColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
-		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+	</ThingDef>	
+
+	<ThingDef Name="VFEPD_ColourableNoSilverFurnitureBase" ParentName="BuildingBase" Abstract="True">
 		<building>
 			<paintable>true</paintable>
 		</building>
 	</ThingDef>
+	
+	<ThingDef Name="VFEPD_ColourableFurnitureBase" ParentName="VFEPD_NonColourableFurnitureBase" Abstract="True">
+		<building>
+			<paintable>true</paintable>
+		</building>
+	</ThingDef>
+
 	<ThingDef Name="VFEPD_NonColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
 		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
 		
@@ -59,11 +66,7 @@
 		<filthLeaving Inherit="False"/>
 		<clearBuildingArea>false</clearBuildingArea>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<comps>
-			<li Class="VFEProps.CompProperties_SubstractSilver">
-				
-			</li>
-		</comps>
+		
 	</ThingDef>
 	<ThingDef Abstract="True" ParentName="DecalBase" Name="DecalBaseLarge">
 		<description>A large floor decal.</description>

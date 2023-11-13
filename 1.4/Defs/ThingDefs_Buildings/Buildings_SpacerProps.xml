@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_DataConsole</defName>
     <label>data console</label>
     <description>An advanced data console accepting several different types of file formatting.</description>
@@ -12,32 +12,32 @@
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
+	  <color>(178,178,178)</color>
+			<shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
 	<defaultPlacingRot>South</defaultPlacingRot>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
       <Mass>15</Mass>
 	  <Beauty>1</Beauty>
       <Flammability>0</Flammability>
     </statBases>
     <size>(3,1)</size>
-    <costList>
-      <Steel>10</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+  
+	
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
   </ThingDef>
   
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_DataConveyor</defName>
     <label>data conveyor</label>
     <description>A large box holding cables and pipes for data transfer.</description>
@@ -45,32 +45,30 @@
       <texPath>Things/Building/SpacerProps/DataConveyor/DataConveyor</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	  <drawSize>(2,2)</drawSize>
+	 <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <castEdgeShadows>True</castEdgeShadows>
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>30</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
       <Mass>10</Mass>
 	  <Beauty>1</Beauty>
       <Flammability>0</Flammability>
     </statBases>
     <size>(2,1)</size>
-    <costList>
-      <Steel>10</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+   
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
   </ThingDef>
   
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_DisplayScreen</defName>
     <label>display screen</label>
     <description>A large data display screen.</description>
@@ -78,69 +76,67 @@
       <texPath>Things/Building/SpacerProps/DisplayScreen/DisplayScreen</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	  <drawSize>(3,3)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
 	<defaultPlacingRot>South</defaultPlacingRot>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
 	  <Beauty>1</Beauty>
       <Mass>15</Mass>
       <Flammability>0</Flammability>
     </statBases>
     <size>(3,1)</size>
-    <costList>
-      <Steel>10</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+   
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
   </ThingDef>
   
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_DisplayTable</defName>
     <label>display table</label>
     <description>A large size display screen mounted on a large table.</description>
     <graphicData>	
       <texPath>Things/Building/SpacerProps/DisplayTable</texPath>
       <graphicClass>Graphic_Random</graphicClass>
+	   <shaderType>CutoutComplex</shaderType>
 	  <drawSize>(4,4)</drawSize>
     </graphicData>
 	<rotatable>false</rotatable>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <castEdgeShadows>True</castEdgeShadows>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
 	  <Beauty>1</Beauty>
       <Mass>25</Mass>
       <Flammability>0</Flammability>
     </statBases>
     <size>(4,4)</size>
-    <costList>
-      <Steel>30</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+   
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
   </ThingDef>
   
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_LongCommandConsole</defName>
     <label>long command console</label>
     <description>A long console with several different command modules.</description>
@@ -148,62 +144,59 @@
       <texPath>Things/Building/SpacerProps/LongCommandConsole/LongCommandConsole</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	  <drawSize>(4,4)</drawSize>
+	    <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
 	<defaultPlacingRot>South</defaultPlacingRot>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
       <Mass>20</Mass>
 	  <Beauty>1</Beauty>
       <Flammability>0</Flammability>
     </statBases>
     <size>(4,1)</size>
-    <costList>
-      <Steel>15</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+   
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
   </ThingDef>
   
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="VFEPD_ColourableFurnitureBase">
     <defName>VFEPD_PlanningScreen</defName>
-    <label>planning screen</label>
+   <label>planning screen</label>
     <description>A glass screen, ideal for planning out combat scenarios.</description>
     <graphicData>	
       <texPath>Things/Building/SpacerProps/PlanningScreen/PlanningScreen</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	  <drawSize>(3,3)</drawSize>
+	   <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.55, 0.30, 0.40)</volume>
       </shadowData>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
 	<defaultPlacingRot>South</defaultPlacingRot>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>50</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
 	  <Beauty>1</Beauty>
       <Mass>15</Mass>
       <Flammability>0</Flammability>
     </statBases>
     <size>(3,1)</size>
-    <costList>
-      <Steel>10</Steel>
-    </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+   
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -219,7 +212,7 @@
 	  <drawSize>(3,3)</drawSize>
     </graphicData>
 	<rotatable>false</rotatable>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <castEdgeShadows>True</castEdgeShadows>
     <passability>PassThroughOnly</passability>
@@ -235,9 +228,9 @@
     <costList>
       <Steel>30</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -252,7 +245,7 @@
       <graphicClass>Graphic_Multi</graphicClass>
 	  <drawSize>(2,2)</drawSize>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
 	<defaultPlacingRot>South</defaultPlacingRot>
@@ -268,9 +261,9 @@
     <costList>
       <Steel>10</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -286,7 +279,7 @@
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.2</fillPercent>
@@ -300,9 +293,9 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -318,7 +311,7 @@
 	  <drawSize>(2,2)</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.2</fillPercent>
@@ -332,9 +325,9 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -349,7 +342,7 @@
       <graphicClass>Graphic_Random</graphicClass>
 	  <drawSize>(3,3)</drawSize>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
 	<rotatable>false</rotatable>
@@ -364,9 +357,9 @@
     <costList>
       <Steel>25</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -381,7 +374,7 @@
       <graphicClass>Graphic_Multi</graphicClass>
 	  <drawSize>(3,3)</drawSize>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.35</fillPercent>
@@ -396,9 +389,9 @@
     <costList>
       <Steel>15</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -415,7 +408,7 @@
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
 	<rotatable>true</rotatable>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.2</fillPercent>
@@ -429,9 +422,9 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -447,7 +440,7 @@
 	  <drawSize>(2,2)</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
     <fillPercent>0.6</fillPercent>
@@ -461,9 +454,9 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -478,7 +471,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>(1,1)</drawSize>
     </graphicData>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
 	<rotatable>false</rotatable>
     <passability>Standable</passability>
@@ -493,9 +486,9 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>
@@ -511,7 +504,7 @@
 	  <drawSize>(2,2)</drawSize>
     </graphicData>
     <defaultPlacingRot>South</defaultPlacingRot>
-    <researchPrerequisites><li>SpacerProps</li></researchPrerequisites>
+   
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
     <fillPercent>0.6</fillPercent>
@@ -525,9 +518,9 @@
     <costList>
       <Steel>5</Steel>
     </costList>
-    <designationCategory>PropsandDecor</designationCategory>
+    
     <uiIconScale>1</uiIconScale>
-    <designatorDropdown>SpacerProps</designatorDropdown>
+    
 	<building>
 		      <isInert>true</isInert>
 	</building>

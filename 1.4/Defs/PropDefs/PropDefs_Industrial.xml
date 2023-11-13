@@ -11,12 +11,14 @@
 		<category>VFE_PropCategory_Industrial</category>		
 		<priority>2</priority>
 		<prop>VFEPD_BoxLarge</prop>
+		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Industrial_3</defName>
 		<category>VFE_PropCategory_Industrial</category>		
 		<priority>3</priority>
 		<prop>VFEPD_BoxSmall</prop>
+		
 	</VFEProps.PropDef>
 	
 	<VFEProps.PropDef>
@@ -24,12 +26,14 @@
 		<category>VFE_PropCategory_Industrial</category>		
 		<priority>4</priority>
 		<prop>VFEPD_CardboardBoxLarge</prop>
+		<shortLabel>large box</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Industrial_5</defName>
 		<category>VFE_PropCategory_Industrial</category>		
 		<priority>5</priority>
 		<prop>VFEPD_CardboardBoxSmall</prop>
+		<shortLabel>small box</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Industrial_6</defName>
@@ -48,6 +52,7 @@
 		<category>VFE_PropCategory_Industrial</category>		
 		<priority>8</priority>
 		<prop>VFEPD_PalletCardboard</prop>
+		<shortLabel>pallet with boxes</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Industrial_9</defName>

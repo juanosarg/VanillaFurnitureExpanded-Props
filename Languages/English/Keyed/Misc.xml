@@ -6,6 +6,11 @@
 	<VFE_GoBack>Go back</VFE_GoBack>
 	<VFE_PrefabSearch>Search</VFE_PrefabSearch>
 	<VFE_NoSilver>Not enough silver in stockpiles. You need to have at least {0} silver to build this prop</VFE_NoSilver>
+	<VFE_PropCostMultiplier>Prop cost multiplier</VFE_PropCostMultiplier>
+	<VFE_PropCostMultiplierDesc>Cost of prefabs that are bought with silver is calculated depending on their size, hit points, and cover. With this slider you can transform how much they'll cost. 0 disables all silver costs.</VFE_PropCostMultiplierDesc>
+	<VFE_Reset>Reset</VFE_Reset>
+	<VPE_NeedsMats>Built</VPE_NeedsMats>
+	<VPE_NeedsMatsDesc>This particular prop needs construction materials to be built instead of silver, and colonists must build it themselves</VPE_NeedsMatsDesc>
 
 	
 </LanguageData>

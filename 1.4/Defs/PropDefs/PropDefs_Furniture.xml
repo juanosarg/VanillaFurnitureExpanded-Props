@@ -53,6 +53,7 @@
 		<category>VFE_PropCategory_Furniture</category>		
 		<priority>9</priority>
 		<prop>VFEPD_WoodenShortCupboardPlates</prop>
+		<shortLabel>short with plates</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Furniture_10</defName>
@@ -119,6 +120,7 @@
 		<category>VFE_PropCategory_Furniture</category>		
 		<priority>19</priority>
 		<prop>VFEPD_WarehouseShelfBoxes</prop>
+		<shortLabel>shelf with boxes</shortLabel>
 	</VFEProps.PropDef>
 	
 </Defs>

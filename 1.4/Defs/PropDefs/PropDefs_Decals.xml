@@ -7,21 +7,21 @@
 		<category>VFE_PropCategory_Decals</category>
 		<priority>1</priority>
 		<prop>VFEPD_DecalArrowLong</prop>
-		<silverCost>10</silverCost>
+
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Decals_2</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>2</priority>
 		<prop>VFEPD_DecalArrowShort</prop>
-		<silverCost>10</silverCost>
+
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Decals_3</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>3</priority>
 		<prop>VFEPD_DecalArrowWide</prop>
-		<silverCost>10</silverCost>
+
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Decals_4</defName>
@@ -33,12 +33,14 @@
 		<defName>VFE_Prop_Decals_5</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>5</priority>
+		<shortLabel>double inner corner</shortLabel>
 		<prop>VFEPD_DecalLineDoubleCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Decals_6</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>6</priority>
+		<shortLabel>double outer corner</shortLabel>
 		<prop>VFEPD_DecalLineDoubleCornerOuter</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
@@ -51,12 +53,14 @@
 		<defName>VFE_Prop_Decals_8</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>8</priority>
+		<shortLabel>thin inner corner</shortLabel>
 		<prop>VFEPD_DecalLineThinCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Decals_9</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>9</priority>
+		<shortLabel>thin outer corner</shortLabel>
 		<prop>VFEPD_DecalLineThinCornerOuter</prop>
 	</VFEProps.PropDef>
 	

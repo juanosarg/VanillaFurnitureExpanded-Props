@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Security.Cryptography;
 using HarmonyLib;
 using RimWorld;
 using UnityEngine;
@@ -37,11 +38,20 @@ namespace VFEProps
             Close();
         }
 
-        public void CreateDesignator(ThingDef thingdef)
+        public void CreateDesignator(ThingDef thingdef, bool isMaterials)
         {
+
+
             Designator_Build designator = new Designator_Build(thingdef);
+
             Find.DesignatorManager.Select(designator);
+            
+
+          
+
         }
+
+
 
         public bool CheckSilverInMap(int cost)
         {
@@ -111,7 +121,7 @@ namespace VFEProps
                                    select x).OrderBy(x => x.priority).ToList();
 
 
-            var viewRect = new Rect(0f, 40, outRect.width - 16f, 104 * ((props.Count / columnCount) + 1)+20);
+            var viewRect = new Rect(0f, 40, outRect.width - 16f, 104 * ((props.Count / columnCount) + 1) + 20);
             Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
             try
             {
@@ -129,19 +139,30 @@ namespace VFEProps
                     TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
                     if (Widgets.ButtonInvisible(rectIcon))
                     {
-
-                        if (CheckSilverInMap(props[i].silverCost))
+                        int cost = 0;
+                        if (!props[i].useMatsInsteadOfSilver)
                         {
-                            CreateDesignator(props[i].prop);
+                            if (props[i].silverCostOverride != 0)
+                            {
+                                cost = props[i].silverCostOverride;
+                            }
+                            else
+                            {
+                                cost = Utils.CostCalculator(props[i].prop);
+                            }
+                        }
+
+                        if (CheckSilverInMap((int)(cost * VFEProps_Settings.costMultiplier)))
+                        {
+                            CreateDesignator(props[i].prop, props[i].useMatsInsteadOfSilver);
                         }
                         else
                         {
-                            Messages.Message("VFE_NoSilver".Translate(props[i].silverCost), null, MessageTypeDefOf.RejectInput);
+                            Messages.Message("VFE_NoSilver".Translate(cost), null, MessageTypeDefOf.RejectInput);
                         }
                     }
 
                     Text.Font = GameFont.Tiny;
-                    var prefabTextRect = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 64 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
                     string label;
                     if (!props[i].shortLabel.NullOrEmpty())
                     {
@@ -150,14 +171,46 @@ namespace VFEProps
                     else
                     {
                         label = props[i].prop.LabelCap;
-                    }         
-                    
-                    Widgets.Label(prefabTextRect, label);
+                    }
 
-                    Rect silverIcon = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
-                    GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
-                    Rect silverDetails = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount) + 24, viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
-                    Widgets.Label(silverDetails, (props[i].silverCost).ToString());
+                    float num = Text.CalcHeight(label, 64);
+                    var prefabTextRect = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y - num / 2 + 64 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, num);
+
+
+                    GUI.DrawTexture(prefabTextRect, TexUI.GrayTextBG);
+                    Text.Anchor = TextAnchor.UpperCenter;
+                    Widgets.Label(prefabTextRect, label);
+                    Text.Anchor = TextAnchor.UpperLeft;
+
+                    if (!props[i].useMatsInsteadOfSilver)
+                    {
+                        Rect silverIcon = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
+                        GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                        Rect silverDetails = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount) + 24, viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
+                        int costForLabel = 0;
+
+                        if (props[i].silverCostOverride != 0)
+                        {
+                            costForLabel = props[i].silverCostOverride;
+                        }
+                        else
+                        {
+                            costForLabel = Utils.CostCalculator(props[i].prop);
+                        }
+
+
+                        Widgets.Label(silverDetails, (costForLabel * VFEProps_Settings.costMultiplier).ToString());
+                    }
+                    else
+                    {
+                        Rect matsIcon = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
+                        GUI.DrawTexture(matsIcon, ContentFinder<Texture2D>.Get("UI/VPE_Mats", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                        Rect matsDetails = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount) + 24, viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
+                        Widgets.Label(matsDetails, "VPE_NeedsMats".Translate());
+                        TooltipHandler.TipRegion(matsIcon, "VPE_NeedsMatsDesc".Translate());
+                        TooltipHandler.TipRegion(matsDetails, "VPE_NeedsMatsDesc".Translate());
+
+                    }
                 }
             }
             finally
@@ -166,6 +219,6 @@ namespace VFEProps
             }
         }
 
-        
+
     }
 }

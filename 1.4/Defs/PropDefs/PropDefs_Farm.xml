@@ -35,6 +35,7 @@
 		<category>VFE_PropCategory_Farm</category>		
 		<priority>6</priority>
 		<prop>VFEPD_WoodenLogsLarge</prop>
+		<shortLabel>large logs</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Farm_7</defName>

@@ -59,6 +59,7 @@
 		<category>VFE_PropCategory_Kitchen</category>		
 		<priority>10</priority>
 		<prop>VFEPD_KitchenSurfaceEmpty</prop>
+		<shortLabel>empty counter</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Kitchen_11</defName>

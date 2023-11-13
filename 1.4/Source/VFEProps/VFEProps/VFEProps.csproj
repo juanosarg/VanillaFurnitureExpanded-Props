@@ -294,14 +294,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building\Building_SubstractsSilver.cs" />
-    <Compile Include="Comps\CompProperties_SubstractSilver.cs" />
-    <Compile Include="Comps\CompSubstractSilver.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Defs\HiddenDesignatorsDef.cs" />
     <Compile Include="Defs\PropCategoryDef.cs" />
     <Compile Include="Defs\PropDef.cs" />
     <Compile Include="Designators\Designator_Props.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\DesignationCategoryDef_ResolvedAllowedDesignators.cs" />
+    <Compile Include="Options\SettingsHelper.cs" />
+    <Compile Include="Options\VFEProps_Settings.cs" />
+    <Compile Include="Options\VFEProps_SettingsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticCollections\StaticCollections.cs" />
+    <Compile Include="Utils\Utils.cs" />
     <Compile Include="Windows and Dialogs\Window_PropsCategories.cs" />
     <Compile Include="Windows and Dialogs\Window_PropsListing.cs" />
   </ItemGroup>

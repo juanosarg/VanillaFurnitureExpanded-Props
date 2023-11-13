@@ -8,7 +8,9 @@ namespace VFEProps
     [DefOf]
     public static class InternalDefOf
     {
+
        
+
 
         static InternalDefOf()
         {

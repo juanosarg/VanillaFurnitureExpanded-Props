@@ -71,24 +71,28 @@
 		<category>VFE_PropCategory_Medieval</category>		
 		<priority>12</priority>
 		<prop>VFEPD_WoodenChestLarge</prop>
+		<shortLabel>large chest</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Medieval_13</defName>
 		<category>VFE_PropCategory_Medieval</category>		
 		<priority>13</priority>
 		<prop>VFEPD_WeaponRackEmpty</prop>
+		<shortLabel>empty rack</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Medieval_14</defName>
 		<category>VFE_PropCategory_Medieval</category>		
 		<priority>14</priority>
 		<prop>VFEPD_WeaponRackSwords</prop>
+		<shortLabel>swords rack</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Medieval_15</defName>
 		<category>VFE_PropCategory_Medieval</category>		
 		<priority>15</priority>
 		<prop>VFEPD_WeaponRackSpears</prop>
+		<shortLabel>spears rack</shortLabel>
 	</VFEProps.PropDef><VFEProps.PropDef>
 		<defName>VFE_Prop_Medieval_16</defName>
 		<category>VFE_PropCategory_Medieval</category>		

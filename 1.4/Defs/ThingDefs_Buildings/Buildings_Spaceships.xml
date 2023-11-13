@@ -3,7 +3,7 @@
 
 
 
-	<ThingDef ParentName="FurnitureBase">
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_Superpod</defName>
 		<label>superpod</label>
 		<description>A large, out-of-service, multi use drop pod.</description>
@@ -15,7 +15,7 @@
 				<volume>(1, 1, 1)</volume>
 			</shadowData>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -47,7 +47,7 @@
 			</shadowData>
 			<color>(60,60,60)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -79,7 +79,7 @@
 			</shadowData>
 			<color>(255,255,255)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -119,7 +119,7 @@
 			</shadowData>
 			<color>(255,255,255)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -151,7 +151,7 @@
 			</shadowData>
 			<color>(255,255,255)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -183,7 +183,7 @@
 			</shadowData>
 			<color>(180,173,150)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -215,7 +215,7 @@
 			</shadowData>
 			<color>(180,173,150)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -247,7 +247,7 @@
 			</shadowData>
 			<color>(44,83,140)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -279,7 +279,7 @@
 			</shadowData>
 			<color>(44,83,140)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -311,7 +311,7 @@
 			</shadowData>
 			<color>(178,72,66)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -343,7 +343,7 @@
 			</shadowData>
 			<color>(178,72,66)</color>
 		</graphicData>
-		<tickerType>Normal</tickerType>
+	
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>

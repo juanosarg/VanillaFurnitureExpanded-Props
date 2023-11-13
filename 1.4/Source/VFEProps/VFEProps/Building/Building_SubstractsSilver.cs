@@ -9,37 +9,52 @@ namespace VFEProps
     public class Building_SubstractsSilver : Building
     {
 
-       
+
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
-            base.SpawnSetup(map,respawningAfterLoad);
+            base.SpawnSetup(map, respawningAfterLoad);
             if (!respawningAfterLoad)
             {
                 int cost = GetSilverCost();
-
-                if (CheckSilverInMap(cost))
+                if (cost != 0)
                 {
-                    RemoveSilverFromMap(cost);
+                    if (CheckSilverInMap(cost))
+                    {
+                        RemoveSilverFromMap(cost);
+                    }
+                    else
+                    {
+                        Messages.Message("VFE_NoSilver".Translate(cost), null, MessageTypeDefOf.RejectInput);
+                        this.DeSpawn();
+                    }
                 }
-                else
-                {
-                    Messages.Message("VFE_NoSilver".Translate(cost), null, MessageTypeDefOf.RejectInput);
-                    this.DeSpawn();
-                  
 
-                }
             }
         }
 
-       
+
         public int GetSilverCost()
         {
-            int cost = (from x in DefDatabase<PropDef>.AllDefsListForReading
-                        where x.prop == this.def
-                        select x).First().silverCost;
+            PropDef prop = (from x in DefDatabase<PropDef>.AllDefsListForReading
+                            where x.prop == this.def
+                            select x).First();
+            int cost = 0;
+            if (!prop.useMatsInsteadOfSilver)
+            {
+                if (prop.silverCostOverride != 0)
+                {
+                    cost = prop.silverCostOverride;
+                }
+                else
+                {
 
-            return cost;
+                    cost = Utils.CostCalculator(this.def);
+
+                }
+            }
+
+            return (int)(cost * VFEProps_Settings.costMultiplier);
         }
 
         public bool CheckSilverInMap(int cost)
@@ -73,26 +88,29 @@ namespace VFEProps
         {
             int silverLeftToRemove = cost;
             List<SlotGroup> allGroupsListForReading = Find.CurrentMap.haulDestinationManager.AllGroupsListForReading;
-            while (silverLeftToRemove > 0)
-            {
-                for (int i = 0; i < allGroupsListForReading.Count; i++)
-                {
-                    foreach (Thing heldThing in allGroupsListForReading[i].HeldThings)
-                    {
-                        Thing innerIfMinified = heldThing.GetInnerIfMinified();
-                        if (innerIfMinified.def.CountAsResource)
-                        {
-                            if (innerIfMinified.def == ThingDefOf.Silver)
-                            {
-                                int num = Math.Min(cost, innerIfMinified.stackCount);
-                                innerIfMinified.SplitOff(num).Destroy();
-                                silverLeftToRemove -= num;
-                            }
 
+            for (int i = 0; i < allGroupsListForReading.Count; i++)
+            {
+                if (silverLeftToRemove <= 0) { break; }
+                foreach (Thing heldThing in allGroupsListForReading[i].HeldThings)
+                {
+                    Thing innerIfMinified = heldThing.GetInnerIfMinified();
+                    if (innerIfMinified.def.CountAsResource)
+                    {
+                        if (innerIfMinified.def == ThingDefOf.Silver)
+                        {
+                            int num = Math.Min(silverLeftToRemove, innerIfMinified.stackCount);
+                            innerIfMinified.SplitOff(num).Destroy();
+                          
+                            silverLeftToRemove -= num;
+                  
+                            if (silverLeftToRemove <= 0) { break; }
                         }
+
                     }
                 }
             }
+
 
 
         }

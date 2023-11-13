@@ -7,21 +7,23 @@
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>1</priority>
 		<prop>VFEPD_LargeDecalArrowLong</prop>
-		<silverCost>10</silverCost>
+
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_2</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>2</priority>
 		<prop>VFEPD_LargeDecalArrowShort</prop>
-		<silverCost>10</silverCost>
+		<shortLabel>large arrow short</shortLabel>
+
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_3</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>3</priority>
 		<prop>VFEPD_LargeDecalArrowWide</prop>
-		<silverCost>10</silverCost>
+		<shortLabel>large arrow wide</shortLabel>
+
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_4</defName>
@@ -33,30 +35,35 @@
 		<defName>VFE_Prop_LargeDecals_5</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>5</priority>
+		<shortLabel>lrg. double inner corner</shortLabel>
 		<prop>VFEPD_LargeDecalLineDoubleCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_6</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>6</priority>
+		<shortLabel>lrg. double outer corner</shortLabel>
 		<prop>VFEPD_LargeDecalLineDoubleCornerOuter</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_7</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>7</priority>
+		
 		<prop>VFEPD_LargeDecalLineThin</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_8</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>8</priority>
+		<shortLabel>lrg. thin inner corner</shortLabel>
 		<prop>VFEPD_LargeDecalLineThinCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_9</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>9</priority>
+		<shortLabel>lrg. thin outer corner</shortLabel>
 		<prop>VFEPD_LargeDecalLineThinCornerOuter</prop>
 	</VFEProps.PropDef>
 	
@@ -289,12 +296,14 @@
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>45</priority>
 		<prop>VFEPD_LargeDecalWordArmory</prop>
+		<shortLabel>large armory</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_46</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>46</priority>
 		<prop>VFEPD_LargeDecalWordBarracks</prop>
+		<shortLabel>large barracks</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_47</defName>
@@ -307,6 +316,7 @@
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>48</priority>
 		<prop>VFEPD_LargeDecalWordCafeteria</prop>
+		<shortLabel>large cafeteria</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_49</defName>
@@ -319,6 +329,7 @@
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>50</priority>
 		<prop>VFEPD_LargeDecalWordChamber</prop>
+		<shortLabel>large chamber</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_LargeDecals_51</defName>

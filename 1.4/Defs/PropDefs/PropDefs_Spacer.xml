@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_1</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>1</priority>
+		<prop>VFEPD_DataConsole</prop>
+		<shortLabel>Console</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_2</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>2</priority>
+		<prop>VFEPD_DataConveyor</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_3</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>3</priority>
+		<prop>VFEPD_DisplayScreen</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_4</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>4</priority>
+		<prop>VFEPD_DisplayTable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_5</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>5</priority>
+		<prop>VFEPD_LongCommandConsole</prop>
+		<shortLabel>long console</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_6</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>6</priority>
+		<prop>VFEPD_PlanningScreen</prop>
+	</VFEProps.PropDef>
+</Defs>
