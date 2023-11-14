@@ -100,7 +100,7 @@
 			<li>PlaceWorker_RitualFocus</li>
 		</placeWorkers>
 	</ThingDef>
-	<ThingDef Name="VFEPD_AncientSmallWalkableBuildingBase" ParentName="BuildingBase" Abstract="True">
+	<ThingDef Name="VFEPD_AncientBuildingBase" ParentName="BuildingBase" Abstract="True">
 		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>

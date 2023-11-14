@@ -301,7 +301,7 @@
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>45</priority>
 		<prop>VFEPD_AncientMiniWarwalkerRemains</prop>
-			<shortLabel>warwalker remains</shortLabel>
+		<shortLabel>warwalker remains</shortLabel>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Ancient_46</defName>
@@ -329,14 +329,12 @@
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>49</priority>
 		<prop>VFEPD_AncientTank</prop>
-		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Ancient_50</defName>
 		<category>VFE_PropCategory_Ancient</category>
 		<priority>50</priority>
 		<prop>VFEPD_AncientAPC</prop>
-		
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Ancient_51</defName>
@@ -379,5 +377,76 @@
 		<priority>56</priority>
 		<prop>VFEPD_AncientLargeRustedEngineBlock</prop>
 		<shortLabel>rusted engine</shortLabel>
+	</VFEProps.PropDef>
+	<!--<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_57</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>57</priority>
+		<prop>VFEPD_AncientFence</prop>
+	</VFEProps.PropDef>-->
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_58</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>58</priority>
+		<prop>VFEPD_AncientRazorWire</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_59</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>59</priority>
+		<prop>VFEPD_AncientPipes</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_60</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>60</priority>
+		<prop>VFEPD_AncientMegaCannonTripod</prop>
+		<shortLabel>cannon tripod</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_61</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>61</priority>
+		<prop>VFEPD_AncientMegaCannonBarrel</prop>
+		<shortLabel>cannon barrel</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_62</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>62</priority>
+		<prop>VFEPD_AncientContainer</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_63</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>63</priority>
+		<prop>VFEPD_AncientMechDetritus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_64</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>64</priority>
+		<prop>VFEPD_AncientMechDropBeacon</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_65</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>65</priority>
+		<prop>VFEPD_AncientSecurityTurret</prop>
+		<shortLabel>ancient turret</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_66</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>66</priority>
+		<prop>VFEPD_AncientRustedEngineBlock</prop>
+		<shortLabel>rusted engine</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_67</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>67</priority>
+		<prop>VFEPD_AncientShipBeacon</prop>
+		<shortLabel>ship beacon</shortLabel>
 	</VFEProps.PropDef>
 </Defs>

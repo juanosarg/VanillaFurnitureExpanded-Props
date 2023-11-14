@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Vaults</defName>
+		<label>vaults</label>
+		<description>Props found in ancient vaults</description>
+		<priority>15</priority>
+		<icon>UI/Categories/Props_Vault</icon>
+	</VFEProps.PropCategoryDef>
+	
+
+</Defs>
