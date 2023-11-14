@@ -11,6 +11,8 @@
 	<VFE_Reset>Reset</VFE_Reset>
 	<VPE_NeedsMats>Built</VPE_NeedsMats>
 	<VPE_NeedsMatsDesc>This particular prop needs construction materials to be built instead of silver, and colonists must build it themselves</VPE_NeedsMatsDesc>
+	<VFEPD_BuildProps>build props</VFEPD_BuildProps>
+	<VFEPD_BuildPropsDesc>Open a menu to build props with a silver cost.</VFEPD_BuildPropsDesc>
 
 	
 </LanguageData>

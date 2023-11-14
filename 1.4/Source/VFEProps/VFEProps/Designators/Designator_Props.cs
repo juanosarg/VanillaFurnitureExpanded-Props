@@ -16,9 +16,9 @@ namespace VFEProps
 
         public Designator_Props()
         {
-            defaultLabel = "Building Props";
-            defaultDesc = "Open building props menu";
-            icon = ContentFinder<Texture2D>.Get("UI/AP_OpenPrefabCatalog", true);
+            defaultLabel = "VFEPD_BuildProps".Translate();
+            defaultDesc = "VFEPD_BuildPropsDesc".Translate();
+            icon = ContentFinder<Texture2D>.Get("UI/Gizmo_BuildProps", true);
             soundDragSustain = SoundDefOf.Designate_DragStandard;
             soundDragChanged = SoundDefOf.Designate_DragStandard_Changed;
             useMouseIcon = true;

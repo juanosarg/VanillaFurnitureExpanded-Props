@@ -60,7 +60,7 @@ namespace VFEProps
                                                         select x).OrderBy(x => x.priority).ToList();
 
            
-            var viewRect = new Rect(0f, 0f, outRect.width - 16f, 180*(float)propCategories.Count/4);
+            var viewRect = new Rect(0f, 0f, outRect.width - 16f, 104 * ((propCategories.Count / columnCount) + 1) + 20);
             Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
             try
             {
@@ -69,9 +69,9 @@ namespace VFEProps
                 {
 
                     Rect rectIcon = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y  + (64 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 64);
-                    Widgets.DrawBoxSolidWithOutline(rectIcon, fillColor, borderColor, 2);
-                    Rect rectIconInside = rectIcon.ContractedBy(2);
-                    GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(propCategories[i].icon, true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+            
+                    GUI.DrawTexture(rectIcon, ContentFinder<Texture2D>.Get("UI/Categories/Props_CategoryBackground", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                    GUI.DrawTexture(rectIcon, ContentFinder<Texture2D>.Get(propCategories[i].icon, true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
                     TooltipHandler.TipRegion(rectIcon, propCategories[i].LabelCap+": "+ propCategories[i].description);
                     Text.Font = GameFont.Tiny;
                     var categoryTextRect = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount), viewRect.y + 64 + (64 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);

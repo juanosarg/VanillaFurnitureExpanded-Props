@@ -23,7 +23,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -57,7 +57,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -90,7 +90,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -123,7 +123,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -157,7 +157,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -190,7 +190,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -223,7 +223,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -256,7 +256,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>78</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -290,7 +290,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>78</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -323,7 +323,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1.0</Flammability>
-			<Beauty>0.5</Beauty>
 		</statBases>
 		<size>(3,1)</size>
 		<building>
@@ -352,7 +351,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1.0</Flammability>
-			<Beauty>0.5</Beauty>
 		</statBases>
 		<size>(2,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -383,7 +381,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>2</Mass>
 			<Flammability>1.0</Flammability>
-			<Beauty>0.5</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<building>
@@ -409,7 +406,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -439,7 +436,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -507,7 +504,7 @@
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
@@ -533,10 +530,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -561,10 +557,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,1)</size>
@@ -590,10 +585,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,1)</size>
@@ -602,16 +596,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
-	
-	
-	
 	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
-	
-	
-	
-	
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>VFEPD_PlasteelATM</defName>
 		<label>plasteel ATM</label>

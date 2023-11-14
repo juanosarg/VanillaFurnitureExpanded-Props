@@ -42,7 +42,7 @@ namespace VFEProps
             int cost = 0;
             if (!prop.useMatsInsteadOfSilver)
             {
-                if (prop.silverCostOverride != 0)
+                if (prop.silverCostOverride != -1)
                 {
                     cost = prop.silverCostOverride;
                 }

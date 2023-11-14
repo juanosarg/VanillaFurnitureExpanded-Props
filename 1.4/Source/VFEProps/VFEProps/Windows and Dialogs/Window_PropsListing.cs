@@ -142,7 +142,7 @@ namespace VFEProps
                         int cost = 0;
                         if (!props[i].useMatsInsteadOfSilver)
                         {
-                            if (props[i].silverCostOverride != 0)
+                            if (props[i].silverCostOverride != -1)
                             {
                                 cost = props[i].silverCostOverride;
                             }
@@ -189,7 +189,7 @@ namespace VFEProps
                         Rect silverDetails = new Rect((64 * (i % columnCount)) + 5 * (i % columnCount) + 24, viewRect.y + 79 + (84 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 64, 20);
                         int costForLabel = 0;
 
-                        if (props[i].silverCostOverride != 0)
+                        if (props[i].silverCostOverride != -1)
                         {
                             costForLabel = props[i].silverCostOverride;
                         }

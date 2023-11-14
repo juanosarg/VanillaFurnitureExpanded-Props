@@ -19,7 +19,6 @@
 			<MaxHitPoints>20</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -44,10 +43,9 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>30</MaxHitPoints>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -71,10 +69,9 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
+			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -98,10 +95,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
+			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -128,7 +124,6 @@
 			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>25</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -152,10 +147,9 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
-			<MaxHitPoints>60</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>25</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -179,10 +173,9 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>30</MaxHitPoints>
+			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>10</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -208,7 +201,6 @@
 			<MaxHitPoints>20</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -232,10 +224,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,1)</size>
@@ -259,10 +250,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,1)</size>
@@ -286,10 +276,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,1)</size>
@@ -316,7 +305,6 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -346,7 +334,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -374,7 +361,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -402,7 +388,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -430,7 +415,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -457,7 +441,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0.2</Flammability>
 		</statBases>
 		<size>(1,1)</size>

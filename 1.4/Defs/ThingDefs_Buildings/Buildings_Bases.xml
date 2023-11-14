@@ -6,6 +6,7 @@
 			<paintable>true</paintable>
 		</building>
 		<tickerType>Normal</tickerType>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<comps>
 			<li Class="CompProperties_Explosive">
 				<wickTicks>360</wickTicks>
@@ -16,23 +17,21 @@
 				<extraInspectStringKey>ExplosionOnDamageWarning</extraInspectStringKey>
 			</li>
 		</comps>
-	</ThingDef>	
-
+	</ThingDef>
 	<ThingDef Name="VFEPD_ColourableNoSilverFurnitureBase" ParentName="BuildingBase" Abstract="True">
 		<building>
 			<paintable>true</paintable>
 		</building>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
-	
 	<ThingDef Name="VFEPD_ColourableFurnitureBase" ParentName="VFEPD_NonColourableFurnitureBase" Abstract="True">
 		<building>
 			<paintable>true</paintable>
 		</building>
 	</ThingDef>
-
 	<ThingDef Name="VFEPD_NonColourableFurnitureBase" ParentName="BuildingBase" Abstract="True">
 		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
-		
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
 	<ThingDef Abstract="True" ParentName="BuildingBase" Name="DecalBase">
 		<description>A small floor decal.</description>
@@ -59,20 +58,18 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
 		<filthLeaving Inherit="False"/>
 		<clearBuildingArea>false</clearBuildingArea>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		
 	</ThingDef>
 	<ThingDef Abstract="True" ParentName="DecalBase" Name="DecalBaseLarge">
 		<description>A large floor decal.</description>
 		<size>(1,1)</size>
 	</ThingDef>
-	<ThingDef Abstract="True" ParentName="FurnitureWithQualityBase" Name="VPE_TableGatherSpotBase">
+	<ThingDef Abstract="True" ParentName="BuildingBase" Name="VPE_TableGatherSpotBase">
 		<description>People eat off tables when chairs are placed facing them.</description>
 		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
 		<altitudeLayer>Building</altitudeLayer>
@@ -102,5 +99,28 @@
 		<placeWorkers>
 			<li>PlaceWorker_RitualFocus</li>
 		</placeWorkers>
+	</ThingDef>
+	<ThingDef Name="VFEPD_AncientSmallWalkableBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+			
+		</building>
 	</ThingDef>
 </Defs>

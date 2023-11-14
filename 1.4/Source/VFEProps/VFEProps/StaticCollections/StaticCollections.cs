@@ -24,6 +24,14 @@ namespace VFEProps
                 }
             }
 
+            foreach (PropDef prop in DefDatabase<PropDef>.AllDefsListForReading)
+            {
+                if (prop.dontPopUpStupidGraphicErrors)
+                {
+                    stupidErrors_Things.Add(prop.prop);
+                }
+            }
+
 
         }
 
@@ -31,7 +39,10 @@ namespace VFEProps
 
         // A list of designators that shouldn't appear on the architect menu
         public static HashSet<BuildableDef> hidden_designators = new HashSet<BuildableDef>();
-       
+
+        // A list of things that usually pop up stupid errors in-game
+        public static HashSet<ThingDef> stupidErrors_Things = new HashSet<ThingDef>();
+
 
     }
 }

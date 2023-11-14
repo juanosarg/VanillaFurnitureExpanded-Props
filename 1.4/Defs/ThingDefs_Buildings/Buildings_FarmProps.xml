@@ -18,10 +18,9 @@
 			<isInert>true</isInert>
 		</building>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(2,2)</size>
@@ -44,7 +43,7 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>70</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>10</Mass>
 			<Flammability>1</Flammability>
@@ -100,7 +99,7 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.05</fillPercent>
 		<statBases>
-			<MaxHitPoints>70</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1</Flammability>
@@ -128,7 +127,6 @@
 			<MaxHitPoints>30</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -186,7 +184,7 @@
 		<passability>Impassable</passability>
 		<fillPercent>1</fillPercent>
 		<statBases>
-			<MaxHitPoints>70</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1</Flammability>
@@ -208,7 +206,6 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-		
 			<color>(255,208,176)</color>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -216,12 +213,12 @@
 		<passability>Impassable</passability>
 		<fillPercent>0.6</fillPercent>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1</Flammability>
 		</statBases>
-		<size>(3,1)</size>
+		<size>(2,3)</size>
 		<uiIconScale>0.7</uiIconScale>
 		<building>
 			<isInert>true</isInert>

@@ -12,7 +12,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>15</Mass>
 			<Flammability>1.0</Flammability>
-			<Beauty>7.5</Beauty>
 		</statBases>
 		<canOverlapZones>true</canOverlapZones>
 		<pathCost>10</pathCost>
@@ -78,10 +77,9 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>160</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>10</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -106,10 +104,9 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>40</MaxHitPoints>
+			<MaxHitPoints>65</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -138,7 +135,6 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>8</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -163,10 +159,9 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
-			<MaxHitPoints>10</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -180,7 +175,6 @@
 		<label>cage brazier</label>
 		<description>A metal cage shaped empty brazier.</description>
 		<category>Building</category>
-		
 		<fillPercent>0.05</fillPercent>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -198,7 +192,6 @@
 		<graphicData>
 			<texPath>Things/Building/MedievalProps/CageBrazier/CageBrazier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			
 			<color>(105,105,105)</color>
 			<shadowData>
 				<volume>(0.55, 0.35, 0.3)</volume>
@@ -217,7 +210,6 @@
 		<label>empty brazier</label>
 		<description>A bowl-shaped furnishing used to hold a fire.</description>
 		<category>Building</category>
-		
 		<fillPercent>0.15</fillPercent>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -262,7 +254,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>1</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -290,7 +281,6 @@
 			<MaxHitPoints>10</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>1</Mass>
-			<Beauty>1</Beauty>
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
@@ -405,7 +395,7 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>40</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>10</Mass>
 			<Flammability>1</Flammability>
@@ -435,7 +425,7 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<statBases>
-			<MaxHitPoints>40</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>10</Mass>
 			<Flammability>1</Flammability>
@@ -465,7 +455,7 @@
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
-			<MaxHitPoints>20</MaxHitPoints>
+			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>50</Mass>
 			<Flammability>1</Flammability>

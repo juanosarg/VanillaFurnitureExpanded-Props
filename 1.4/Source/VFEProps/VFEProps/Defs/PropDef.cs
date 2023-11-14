@@ -15,9 +15,10 @@ namespace VFEProps
         public PropCategoryDef category;
         public List<PropCategoryDef> categories;
         public ThingDef prop;
-        public int silverCostOverride=0;
+        public int silverCostOverride=-1;
         public string shortLabel = "";
         public bool useMatsInsteadOfSilver = false;
+        public bool dontPopUpStupidGraphicErrors = false;
         
     }
 }
