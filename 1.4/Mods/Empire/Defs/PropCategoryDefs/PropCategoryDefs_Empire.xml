@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Empire</defName>
+		<label>imperial</label>
+		<description>Props from the Empire</description>
+		<priority>17</priority>
+		<icon>UI/Categories/Props_Imperial</icon>
+	</VFEProps.PropCategoryDef>
+	
+
+</Defs>
