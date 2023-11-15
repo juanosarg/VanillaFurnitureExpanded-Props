@@ -37,7 +37,7 @@
 			<drawSize>(4, 7)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -204,6 +204,279 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Aerodrone</defName>
+		<label>aerodrone</label>
+		<description>Aerodrone is a spacer-tech, unmanned aerial vehicle equipped with advanced sensors and a missile payload. Non-functional.</description>
+		<size>(5, 3)</size>
+		<fillPercent>0.6</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/Aerodrone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(7, 5)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FuelTank</defName>
+		<label>fuel tank</label>
+		<description>A large fuel tank used to refuel Imperial shuttles. Completely empty.</description>
+		<fillPercent>0.6</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/ImperialFuelTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SurveillanceStation</defName>
+		<label>surveillance console</label>
+		<description>A large console designed to link to surrounding surveillance pillars. This one is disconnected from the grid.</description>
+		<fillPercent>0.6</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/SurveillanceStation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(2, 2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SurveillanceDisplayBank</defName>
+		<label>surveillance display bank</label>
+		<description>An imperial computer interface. This one is disconnected from the grid.</description>
+		<fillPercent>0.5</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/SurveillanceTerminalBank/SurveillanceTerminalBank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(3, 0.45, 1)</volume>
+			</shadowData>
+		</graphicData>
+		 <defaultPlacingRot>South</defaultPlacingRot>
+		<size>(3, 1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Techprinter</defName>
+		<label>techprinter</label>
+		<description>The Techprinter is a marvel of technological innovation, designed to capture and preserve the intricate knowledge residing within a techfriar’s mind. This one is disconnected from the grid.</description>
+		<fillPercent>0.6</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/Techprinter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<size>(4, 4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TechiteDiscStack</defName>
+		<label>techite disc stack</label>
+		<description>A compact stack of discs crafted from the enigmatic element known as techite, produced exclusively by the Empire for knowledge transcribing. These are all blank.</description>
+		<fillPercent>0.4</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/TechiteDiscStack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<size>(1, 1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ImperialUnderfarm</defName>
+		<label>imperial underfarm</label>
+		<description>An underground hydroponics basic used by the empire to feed their subjects. Upon closer inspection it is disconnected from the water mains and all its plants are made of plastic.</description>
+		<fillPercent>0</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/ImperialUnderfarm</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(4, 4)</drawSize>
+		</graphicData>
+		<size>(4, 4)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_WaterMain</defName>
+		<label>water main</label>
+		<description>A large node connecting all the nearby water mains. Upon closer inspection it is disconnected from the water grid.</description>
+		<fillPercent>0.3</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/ImperialUnderfarmMain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<size>(3, 3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ImperialMegaHighShield</defName>
+		<label>imperial mega high-shield</label>
+		<description>An advanced shielding apparatus. Seems to be inactive.</description>
+		<fillPercent>0.3</fillPercent>
+		<graphicData>
+			<texPath>Endgame/ImperialMegaHighShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<size>(5, 5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ZeusCannonControlStation</defName>
+		<label>zeus cannon control station</label>
+		<description>This terminal serves as the primary interface for operating the Zeus Cannon batteries. Seems to be inactive.</description>
+		<fillPercent>0.6</fillPercent>
+		<graphicData>
+			<texPath>Endgame/ZeusCannonControlStation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,3)</drawSize>
+			<shadowData>
+				<volume>(5, 0.45, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5, 3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ZeusCannonCapacitorBank</defName>
+		<label>zeus cannon capacitor bank</label>
+		<description>A capacitor bank that transforms electricity into raw energy for the Zeus cannon. Seems to be inactive.</description>
+		<fillPercent>0.4</fillPercent>
+		<graphicData>
+			<texPath>Endgame/ZeusCannonCapacitors/ZeusCannonCapacitors</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 3)</drawSize>
+			<shadowData>
+				<volume>(5, 0.15, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5, 3)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ZeusCannonStatic</defName>
+		<label>static zeus cannon</label>
+		<description>A relic of ancient Sophiamundan technology, the Zeus Cannon is a closely guarded secret of the Empire. Wait, what is this? It's... made of cardboard!</description>
+		<fillPercent>0.4</fillPercent>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/ZeusCannon_Static</texPath>
+			 <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(16, 16)</drawSize>
+      <shadowData>
+        <volume>(3, 3, 3)</volume>
+      </shadowData>
+		</graphicData>
+		<size>(5, 5)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_BurnoutIntelScraper</defName>
+		<label>burnout intel scraper</label>
+		<description>A deserter device capable of intercepting imperial communication. Seems to be inactive.</description>
+		<fillPercent>0.3</fillPercent>
+		<graphicData>
+			<texPath>Structures/Misc/BurnoutIntelScraper</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.1, 0.75, 1.1</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2, 2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>

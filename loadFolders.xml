@@ -14,11 +14,13 @@
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>	
-		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>	
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.4/Mods/Biotech</li>			
 		<li IfModActive="VanillaExpanded.VFEA">1.4/Mods/Ancients</li>
 		<li IfModActive="VanillaExpanded.VGeneticsE">1.4/Mods/Genetics</li>	
 		<li IfModActive="OskarPotocki.VFE.Empire">1.4/Mods/Empire</li>		
-		<li IfModActive="OskarPotocki.VFE.Deserters">1.4/Mods/Deserters</li>		
+		<li IfModActive="OskarPotocki.VFE.Deserters">1.4/Mods/Deserters</li>
+		<li IfModActive="sarg.alphagenes">1.4/Mods/AlphaGenes</li>			
 	</v1.4>
 </loadFolders>
 

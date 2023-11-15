@@ -56,8 +56,7 @@ namespace VFEProps
                 Close();
             }
 
-            List<PropCategoryDef> propCategories = (from x in DefDatabase<PropCategoryDef>.AllDefsListForReading 
-                                                        select x).OrderBy(x => x.priority).ToList();
+            List<PropCategoryDef> propCategories = StaticCollections.visibleCategories.OrderBy(x => x.priority).ToList();
 
            
             var viewRect = new Rect(0f, 0f, outRect.width - 16f, 104 * ((propCategories.Count / columnCount) + 1) + 20);

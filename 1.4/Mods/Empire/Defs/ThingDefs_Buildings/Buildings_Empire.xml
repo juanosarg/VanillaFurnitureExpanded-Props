@@ -15,7 +15,7 @@
 		</statBases>
 		<canOverlapZones>true</canOverlapZones>
 		<pathCost>10</pathCost>
-		<rotatable>true</rotatable>
+		<rotatable>false</rotatable>
 		<size>(1,1)</size>
 		<uiIconOffset>(0, 0.15)</uiIconOffset>
 		<filthLeaving>Filth_Trash</filthLeaving>
@@ -65,12 +65,12 @@
 		<defName>VFEPD_ImperialShuttleCrashed</defName>
 		<label>crashed imperial shuttle</label>
 		<description>Remains of an imperial shuttle.</description>
-		<size>(7,5)</size>
+		<size>(5,3)</size>
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
 			<texPath>Shuttle/ImperialShuttle/CrashedImperialShuttle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(7,5)</drawSize>
+			<drawSize>(5,3)</drawSize>
 			<shadowData>
 				<volume>(4.1, 1.0, 1.8)</volume>
 				<offset>(0, 0, -0.1)</offset>

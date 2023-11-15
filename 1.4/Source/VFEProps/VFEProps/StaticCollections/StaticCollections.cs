@@ -32,6 +32,19 @@ namespace VFEProps
                 }
             }
 
+            foreach (PropCategoryDef category in DefDatabase<PropCategoryDef>.AllDefsListForReading)
+            {
+                List<PropDef> props = (from x in DefDatabase<PropDef>.AllDefsListForReading
+                                       where (x.category == category || x.categories?.Contains(category) == true)
+                                       select x).ToList();
+                if (props.Count > 0)
+                {
+                    visibleCategories.Add(category);
+                }
+                
+               
+            }
+
 
         }
 
@@ -43,6 +56,7 @@ namespace VFEProps
         // A list of things that usually pop up stupid errors in-game
         public static HashSet<ThingDef> stupidErrors_Things = new HashSet<ThingDef>();
 
-
+        // A list of categories that should be shown. Categories without props will be hidden
+        public static HashSet<PropCategoryDef> visibleCategories = new HashSet<PropCategoryDef>();
     }
 }
