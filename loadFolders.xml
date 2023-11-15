@@ -17,7 +17,8 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>	
 		<li IfModActive="VanillaExpanded.VFEA">1.4/Mods/Ancients</li>
 		<li IfModActive="VanillaExpanded.VGeneticsE">1.4/Mods/Genetics</li>	
-		<li IfModActive="OskarPotocki.VFE.Empire">1.4/Mods/Empire</li>			
+		<li IfModActive="OskarPotocki.VFE.Empire">1.4/Mods/Empire</li>		
+		<li IfModActive="OskarPotocki.VFE.Deserters">1.4/Mods/Deserters</li>		
 	</v1.4>
 </loadFolders>
 

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_ImperialBanner</defName>
 		<label>imperial banner</label>
@@ -37,7 +36,6 @@
 			</damageData>
 		</graphicData>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ImperialShuttle</defName>
 		<label>imperial shuttle</label>
@@ -45,16 +43,14 @@
 		<size>(7,5)</size>
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
-      <texPath>Shuttle/ImperialShuttle/ImperialShuttle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(7,5)</drawSize>
-      <shadowData>
-        <volume>(4.1, 1.0, 1.8)</volume>
-        <offset>(0, 0, -0.1)</offset>
-      </shadowData>
-    </graphicData>
-	
-		
+			<texPath>Shuttle/ImperialShuttle/ImperialShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,5)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -62,7 +58,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
@@ -73,16 +68,14 @@
 		<size>(7,5)</size>
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
-      <texPath>Shuttle/ImperialShuttle/CrashedImperialShuttle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(7,5)</drawSize>
-      <shadowData>
-        <volume>(4.1, 1.0, 1.8)</volume>
-        <offset>(0, 0, -0.1)</offset>
-      </shadowData>
-    </graphicData>
-	
-		
+			<texPath>Shuttle/ImperialShuttle/CrashedImperialShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,5)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -90,7 +83,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
@@ -101,16 +93,14 @@
 		<size>(7,5)</size>
 		<fillPercent>0.50</fillPercent>
 		<graphicData>
-      <texPath>Shuttle/ImperialArmoredShuttle/ImperialArmoredShuttle_Skyfaller</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(7,5)</drawSize>
-      <shadowData>
-        <volume>(4.1, 1.0, 1.8)</volume>
-        <offset>(0, 0, -0.1)</offset>
-      </shadowData>
-    </graphicData>
-		
-		
+			<texPath>Shuttle/ImperialArmoredShuttle/ImperialArmoredShuttle_Skyfaller</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,5)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -118,9 +108,7 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 	</ThingDef>
-	
 </Defs>
