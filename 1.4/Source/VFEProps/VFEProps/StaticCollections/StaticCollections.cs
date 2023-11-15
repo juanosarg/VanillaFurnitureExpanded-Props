@@ -54,7 +54,7 @@ namespace VFEProps
         public static HashSet<BuildableDef> hidden_designators = new HashSet<BuildableDef>();
 
         // A list of things that usually pop up stupid errors in-game
-        public static HashSet<ThingDef> stupidErrors_Things = new HashSet<ThingDef>();
+        public static HashSet<BuildableDef> stupidErrors_Things = new HashSet<BuildableDef>();
 
         // A list of categories that should be shown. Categories without props will be hidden
         public static HashSet<PropCategoryDef> visibleCategories = new HashSet<PropCategoryDef>();

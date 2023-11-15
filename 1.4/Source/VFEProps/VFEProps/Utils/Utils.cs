@@ -12,9 +12,16 @@ namespace VFEProps
 
     {
 
-      public static int CostCalculator(ThingDef def) {
+      public static int CostCalculator(BuildableDef def) {
 
-            return Math.Max(5,(int)(7.5 * ((float)def.BaseMaxHitPoints / 300) * (def.fillPercent / 0.55f) * (def.Size.x * def.Size.z))); 
+            ThingDef thingDef = def as ThingDef;
+            if (def != null)
+            {
+                return Math.Max(5, (int)(7.5 * ((float)thingDef.BaseMaxHitPoints / 300) * (thingDef.fillPercent / 0.55f) * (def.Size.x * def.Size.z)));
+
+            }
+            else return 0;
+
         }
 
     }

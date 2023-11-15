@@ -14,7 +14,7 @@ namespace VFEProps
         public float priority;
         public PropCategoryDef category;
         public List<PropCategoryDef> categories;
-        public ThingDef prop;
+        public BuildableDef prop;
         public int silverCostOverride=-1;
         public string shortLabel = "";
         public bool useMatsInsteadOfSilver = false;

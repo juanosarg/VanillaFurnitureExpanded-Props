@@ -38,7 +38,7 @@ namespace VFEProps
             Close();
         }
 
-        public void CreateDesignator(ThingDef thingdef, bool isMaterials)
+        public void CreateDesignator(BuildableDef thingdef, bool isMaterials)
         {
 
 
