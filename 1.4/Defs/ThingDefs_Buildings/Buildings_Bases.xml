@@ -123,4 +123,45 @@
 			
 		</building>
 	</ThingDef>
+	<ThingDef ParentName="BuildingBase" Abstract="True" Name="VFE_BorderBase">
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <size>(1,1)</size>
+		<thingClass>VFEProps.Building_SubstractsSilver</thingClass>
+        <statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+		
+        </statBases>
+		
+        <canOverlapZones>true</canOverlapZones>
+        <defaultPlacingRot>South</defaultPlacingRot>
+		<rotatable>true</rotatable>
+		
+		<pathCost>0</pathCost>
+		
+        <tradeability>None</tradeability>
+        <selectable>true</selectable>
+
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.05,1.05)</drawSize>
+        </graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		
+        <clearBuildingArea>false</clearBuildingArea>
+		
+		
+		
+        <building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<paintable>true</paintable>
+        </building>
+        <fillPercent>0</fillPercent>
+    </ThingDef>
 </Defs>

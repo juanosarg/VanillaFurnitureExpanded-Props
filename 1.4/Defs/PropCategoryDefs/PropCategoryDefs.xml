@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Borders</defName>
+		<label>borders</label>
+		<description>Ground borders to properly demarcate your pathways.</description>
+		<priority>0</priority>
+		<icon>UI/Categories/Props_Borders</icon>
+	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Decals</defName>
 		<label>decals</label>
