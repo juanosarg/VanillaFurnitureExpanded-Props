@@ -122,5 +122,19 @@
 		<prop>VFEPD_WarehouseShelfBoxes</prop>
 		<shortLabel>shelf with boxes</shortLabel>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_20</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>20</priority>
+		<prop>VFEPD_FalseFire</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_21</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>21</priority>
+		<prop>VFEPD_BigFalseFire</prop>
+		
+	</VFEProps.PropDef>
 	
 </Defs>
