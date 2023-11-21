@@ -449,4 +449,71 @@
 		<prop>VFEPD_AncientShipBeacon</prop>
 		<shortLabel>ship beacon</shortLabel>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_27</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>27</priority>
+		<prop>VFEPD_HackingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_28</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>28</priority>
+		<prop>VFEPD_HairCuttingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_29</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>29</priority>
+		<prop>VFEPD_BurnbongSmokeEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_30</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>30</priority>
+		<prop>VFEPD_MakingSkylanternEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_31</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>31</priority>
+		<prop>VFEPD_ChristmasTreeTwinkleEffect</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_33</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>33</priority>
+		<prop>VFEPD_FireSmokeEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_34</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>34</priority>
+		<prop>VFEPD_SleepAcceleratorActiveEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_35</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>35</priority>
+		<prop>VFEPD_BiosculpterPod_OperatingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_36</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>36</priority>
+		<prop>VFEPD_GauranlenDebrisEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_37</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>37</priority>
+		<prop>VFEPD_GauranlenLeavesEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_38</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>38</priority>
+		<prop>VFEPD_GauranlenLeavesBatchEffect</prop>
+	</VFEProps.PropDef>
 </Defs>

@@ -294,8 +294,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building\Building_SubstractsSilver.cs" />
+    <Compile Include="Comps\CompAttachEffecter.cs" />
     <Compile Include="Comps\CompConstantFireOverlay.cs" />
-    <Compile Include="Comps\CompProperties_ConstantFireOverlay.cs" />
+    <Compile Include="Comps\Properties\CompProperties_AttachEffecter.cs" />
+    <Compile Include="Comps\Properties\CompProperties_ConstantFireOverlay.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\HiddenDesignatorsDef.cs" />
     <Compile Include="Defs\PropCategoryDef.cs" />

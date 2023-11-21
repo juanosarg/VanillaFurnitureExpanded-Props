@@ -27,7 +27,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -61,7 +60,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -95,7 +93,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -129,7 +126,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -162,7 +158,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -195,7 +190,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -228,7 +222,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -262,7 +255,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -296,7 +288,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -329,7 +320,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -363,7 +353,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -397,7 +386,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -431,7 +419,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -465,7 +452,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -498,7 +484,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>2</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -531,7 +516,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -565,7 +549,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>0.1</Flammability>
-			<Beauty>1</Beauty>
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>

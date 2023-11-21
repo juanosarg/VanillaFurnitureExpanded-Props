@@ -135,9 +135,31 @@ namespace VFEProps
                     Rect rectIconInside = rectIcon.ContractedBy(2);
 
                     GUI.DrawTexture(rectIconInside, props[i].prop.uiIcon, ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, props[i].prop.uiIconColor, 0f, 0f);
+                    bool researchUnfinished = false;
+                    string researchNeeded = "";
+                    if (props[i].prop.researchPrerequisites?.Count > 0)
+                    {                       
+                        foreach(ResearchProjectDef research in props[i].prop.researchPrerequisites)
+                        {
+                            if (Find.ResearchManager.GetProgress(research) < 1)
+                            {
+                                researchUnfinished = true;
+                                researchNeeded = research.LabelCap;
+                            }
+                        }
+                        if (researchUnfinished)
+                        {
+                            GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get("UI/VFEPD_Blocked", true), ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                        }
 
-                    TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
-                    if (Widgets.ButtonInvisible(rectIcon))
+                    }
+                    if (researchUnfinished)
+                    {
+                        TooltipHandler.TipRegion(rectIcon, "VFEPD_ResearchNeeded".Translate(researchNeeded));
+                    }
+                    else TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
+
+                    if (Widgets.ButtonInvisible(rectIcon)&& !researchUnfinished)
                     {
                         int cost = 0;
                         if (!props[i].useMatsInsteadOfSilver)

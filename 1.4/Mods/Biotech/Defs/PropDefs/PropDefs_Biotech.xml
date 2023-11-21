@@ -43,4 +43,91 @@
 		<shortLabel>band node</shortLabel>
 	</VFEProps.PropDef>
 	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_39</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>39</priority>
+		<prop>VFEPD_MechRepairingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_40</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>40</priority>
+		<prop>VFEPD_MechBandAntennaPreparedEffect</prop>
+	</VFEProps.PropDef>
+
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_42</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>42</priority>
+		<prop>VFEPD_ControlMechEffect</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_43</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>43</priority>
+		<prop>VFEPD_Fire_SpewEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_44</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>44</priority>
+		<prop>VFEPD_Fire_BurstEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_45</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>45</priority>
+		<prop>VFEPD_CellPollutionEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_46</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>46</priority>
+		<prop>VFEPD_GasReleasingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_47</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>47</priority>
+		<prop>VFEPD_SanguophageMeetingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_48</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>48</priority>
+		<prop>VFEPD_GeneAssembler_WorkingEffect</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_50</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>50</priority>
+		<prop>VFEPD_AncientExostriderRemainsPulseEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_51</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>51</priority>
+		<prop>VFEPD_WastepackAtomizer_OperatingEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_52</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>52</priority>
+		<prop>VFEPD_Bloodfeed_WarmupEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_53</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>53</priority>
+		<prop>VFEPD_Vat_BubblesEffect</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_54</defName>
+		<category>VFE_PropCategory_Effecters</category>
+		<priority>54</priority>
+		<prop>VFEPD_ApocritonPulseEffect</prop>
+	</VFEProps.PropDef>
 </Defs>

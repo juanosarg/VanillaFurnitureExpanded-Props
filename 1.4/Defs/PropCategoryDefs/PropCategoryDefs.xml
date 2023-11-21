@@ -133,6 +133,13 @@
 		<priority>18</priority>
 		<icon>UI/Categories/Props_Bedroom</icon>
 	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Effecters</defName>
+		<label>effects</label>
+		<description>Invisible props that release particles from effecters. Bear in mind these will be laggy, so use in moderation.</description>
+		<priority>19</priority>
+		<icon>UI/Categories/Props_Effects</icon>
+	</VFEProps.PropCategoryDef>
 	
 
 </Defs>
