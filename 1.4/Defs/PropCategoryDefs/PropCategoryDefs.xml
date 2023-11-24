@@ -120,6 +120,13 @@
 		<icon>UI/Categories/Props_Plants</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Workshop</defName>
+		<label>workshop</label>
+		<description>Production and workshop props that fit in a crafting environment.</description>
+		<priority>12.75</priority>
+		<icon>UI/Categories/Props_Workshop</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Filth</defName>
 		<label>filth</label>
 		<description>Base game filth as props. Cradle not included.</description>
