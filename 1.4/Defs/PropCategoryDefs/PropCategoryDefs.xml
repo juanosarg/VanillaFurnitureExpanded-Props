@@ -8,6 +8,13 @@
 		<icon>UI/Categories/Props_Floor</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
+		<defName>AP_PropCategory_Walls</defName>
+		<label>walls</label>
+		<description>Walls that are used mostly for decorative purposes.</description>
+		<priority>-5</priority>
+		<icon>UI/Categories/Props_Floor</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Borders</defName>
 		<label>borders</label>
 		<description>Ground borders to properly demarcate your pathways.</description>
