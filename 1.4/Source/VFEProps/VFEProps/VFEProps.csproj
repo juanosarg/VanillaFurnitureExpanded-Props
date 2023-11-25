@@ -308,6 +308,7 @@
     <Compile Include="Harmony\Graphic_Cluster_DrawWorker.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\DesignationCategoryDef_ResolvedAllowedDesignators.cs" />
+    <Compile Include="Harmony\ThingUtility_CheckAutoRebuildOnDestroyed.cs" />
     <Compile Include="Options\SettingsHelper.cs" />
     <Compile Include="Options\VFEProps_Settings.cs" />
     <Compile Include="Options\VFEProps_SettingsController.cs" />

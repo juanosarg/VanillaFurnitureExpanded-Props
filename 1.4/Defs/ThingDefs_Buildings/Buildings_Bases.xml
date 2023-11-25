@@ -27,12 +27,14 @@
 		<rotatable>true</rotatable>
 		<altitudeLayer>Floor</altitudeLayer>
 		<passability>Standable</passability>
+		<useHitPoints>false</useHitPoints>
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
 			<isInert>true</isInert>
 			<isEdifice>false</isEdifice>
 			<paintable>true</paintable>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
 		</building>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0</fillPercent>
