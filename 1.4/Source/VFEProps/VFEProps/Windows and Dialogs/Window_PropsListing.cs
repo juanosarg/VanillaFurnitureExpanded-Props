@@ -22,6 +22,8 @@ namespace VFEProps
         private static readonly Color fillColor = new Color(0, 0, 0, 0.1f);
         private string searchKey;
 
+        public static Rect InfoRectProps => new Rect(0f, (float)(UI.screenHeight - 35) - ((MainTabWindow_Architect)MainButtonDefOf.Architect.TabWindow).WinHeight - 270f, 200f, 270f);
+
         public Window_PropsListing(PropCategoryDef category)
         {
             this.category = category;
@@ -135,6 +137,10 @@ namespace VFEProps
                     Rect rectIconInside = rectIcon.ContractedBy(2);
 
                     GUI.DrawTexture(rectIconInside, props[i].prop.uiIcon, ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, props[i].prop.uiIconColor, 0f, 0f);
+                    if (Mouse.IsOver(rectIconInside))
+                    {                  
+                        Utils.DoInfoBox(InfoRectProps, new Designator_Build(props[i].prop));
+                    }
                     bool researchUnfinished = false;
                     string researchNeeded = "";
                     if (props[i].prop.researchPrerequisites?.Count > 0)
@@ -157,7 +163,11 @@ namespace VFEProps
                     {
                         TooltipHandler.TipRegion(rectIcon, "VFEPD_ResearchNeeded".Translate(researchNeeded));
                     }
-                    else TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
+                    else
+                    {
+                        TooltipHandler.TipRegion(rectIcon, props[i].prop.LabelCap + ": " + props[i].prop.description);
+                  
+                    }
 
                     if (Widgets.ButtonInvisible(rectIcon)&& !researchUnfinished)
                     {

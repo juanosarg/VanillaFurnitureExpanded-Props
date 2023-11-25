@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<ThingDef ParentName="VFEPD_ColourableVehicleBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CarForklift</defName>
 		<label>forklift</label>
 		<description>An industrial style forklift.</description>
@@ -32,7 +32,7 @@
 		<size>(2,4)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_ColourableVehicleBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CarDeliveryBlack</defName>
 		<label>delivery truck</label>
 		<description>A large delivery truck.</description>
@@ -64,7 +64,7 @@
 		<size>(2,6)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_ColourableVehicleBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CarFamilyBlack</defName>
 		<label>family car</label>
 		<description>A family car.</description>
@@ -96,7 +96,7 @@
 		<size>(2,4)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_ColourableVehicleBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CarPickupBlack</defName>
 		<label>pickup truck</label>
 		<description>A pickup truck.</description>
@@ -128,7 +128,7 @@
 		<size>(2,5)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_ColourableVehicleBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CarVintageBlack</defName>
 		<label>vintage car</label>
 		<description>A vintage style car.</description>

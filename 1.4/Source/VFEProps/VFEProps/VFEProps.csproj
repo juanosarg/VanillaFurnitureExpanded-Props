@@ -303,6 +303,8 @@
     <Compile Include="Defs\PropCategoryDef.cs" />
     <Compile Include="Defs\PropDef.cs" />
     <Compile Include="Designators\Designator_Props.cs" />
+    <Compile Include="Harmony\Designator_Build_DrawPlaceMouseAttachments.cs" />
+    <Compile Include="Harmony\GenLeaving_GetBuildingResourcesLeaveCalculator.cs" />
     <Compile Include="Harmony\Graphic_Cluster_DrawWorker.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\DesignationCategoryDef_ResolvedAllowedDesignators.cs" />
