@@ -515,7 +515,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
-			<color>(255,187,187)</color>
+			<color>(111,81,81)</color>
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>

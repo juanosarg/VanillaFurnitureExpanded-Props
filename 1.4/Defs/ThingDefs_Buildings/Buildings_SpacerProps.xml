@@ -11,7 +11,7 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			<color>(178,178,178)</color>
+		
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -176,7 +176,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
-			<color>(120,120,120)</color>
+			
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -333,7 +333,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1.2,1.2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
-			<color>(120,120,120)</color>
+			
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<rotatable>true</rotatable>

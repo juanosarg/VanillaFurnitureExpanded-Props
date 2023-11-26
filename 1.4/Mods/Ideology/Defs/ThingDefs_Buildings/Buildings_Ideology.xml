@@ -171,7 +171,7 @@
 		<rotatable>false</rotatable>
 		<size>(1, 1)</size>
 		<altitudeLayer>Building</altitudeLayer>
-		<defaultPlacingRot>South</defaultPlacingRot>
+		
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>

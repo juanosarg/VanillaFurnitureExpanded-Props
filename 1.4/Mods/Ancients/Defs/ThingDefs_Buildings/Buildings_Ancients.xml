@@ -63,7 +63,7 @@
 			<Mass>30</Mass>
 			<Flammability>1</Flammability>
 		</statBases>
-		<size>(2,3)</size>
+		<size>(1,2)</size>
 		<building>
 			<isInert>true</isInert>
 		</building>
