@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CarForklift</defName>
 		<label>forklift</label>
@@ -10,14 +9,13 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,5)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.8, 0.7, 3.8)</volume>
 			</shadowData>
 			<color>(252,244,134)</color>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<castEdgeShadows>True</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>Impassable</passability>
 		<fillPercent>0.5</fillPercent>
@@ -42,14 +40,13 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,6)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.8, 0.7, 3.8)</volume>
 			</shadowData>
 			<color>(180,173,150)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<castEdgeShadows>True</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>Impassable</passability>
 		<fillPercent>0.5</fillPercent>
@@ -74,14 +71,13 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,5)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.8, 0.7, 3.8)</volume>
 			</shadowData>
 			<color>(44,83,140)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<castEdgeShadows>True</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>Impassable</passability>
 		<fillPercent>0.5</fillPercent>
@@ -106,14 +102,13 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,5)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.8, 0.7, 3.8)</volume>
 			</shadowData>
 			<color>(178,72,66)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<castEdgeShadows>True</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>Impassable</passability>
 		<fillPercent>0.5</fillPercent>
@@ -138,14 +133,13 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,5)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.8, 0.7, 3.8)</volume>
 			</shadowData>
 			<color>(60,60,60)</color>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<castEdgeShadows>True</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>Impassable</passability>
 		<fillPercent>0.5</fillPercent>
@@ -160,18 +154,7 @@
 		<size>(2,4)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	
-	
-	
-	
 	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
-	
-	
-	
-	
-	
-	
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>VFEPD_CarDeliveryWhite</defName>
 		<label>white delivery truck</label>
@@ -796,7 +779,6 @@
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>
 			<WorkToBuild>1000</WorkToBuild>
-			
 			<Mass>200</Mass>
 			<Flammability>0.2</Flammability>
 		</statBases>

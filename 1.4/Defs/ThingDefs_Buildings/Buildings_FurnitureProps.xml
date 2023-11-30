@@ -45,7 +45,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.55,3.45)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(1.5, 0.6, 0.6)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -79,7 +79,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.55,3.45)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(1.5, 0.6, 0.6)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -113,7 +113,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.55,3.45)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(1.5, 0.6, 0.6)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -148,7 +148,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.55,3.45)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(1.5, 0.6, 0.6)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -182,7 +182,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.55,3.45)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(0.5, 0.5, 0.5)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -216,7 +216,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.55,3.45)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(0.5, 0.5, 0.5)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -250,7 +250,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.20)</volume>
+				<volume>(1.5, 0.30, 0.20)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -285,7 +285,7 @@
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.20)</volume>
+				<volume>(1.5, 0.30, 0.20)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -405,6 +405,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.5,3.5)</drawSize>
 			<color>(133,97,67)</color>
+			<shadowData>
+				<volume>(2.5, 0.5, 0.5)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -435,6 +438,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.5,3.5)</drawSize>
 			<color>(105,105,105)</color>
+			<shadowData>
+				<volume>(2.5, 0.5, 0.5)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -466,7 +472,7 @@
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.20)</volume>
+				<volume>(0.4, 0.30, 0.20)</volume>
 			</shadowData>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -501,7 +507,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.5,3.5)</drawSize>
 			<shadowData>
-				<volume>(0.30, 0.30, 0.40)</volume>
+				<volume>(0.4, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(105,105,105)</color>
 		</graphicData>
@@ -534,6 +540,9 @@
 			<texPath>Things/Building/FurnitureProps/WashingMachine/WashingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.4, 0.30, 0.20)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -562,6 +571,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<color>(105,105,105)</color>
+			<shadowData>
+				<volume>(1.5, 0.5, 0.5)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
@@ -590,6 +602,9 @@
 			<drawSize>(3,3)</drawSize>
 			<color>(105,105,105)</color>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.5, 0.5, 0.5)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>

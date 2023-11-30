@@ -70,6 +70,10 @@
 			<texPath>Things/Building/MedievalProps/Anvil/Anvil</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.3,0.3,0.3)</volume>
+			
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -98,6 +102,10 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<color>(96,77,55)</color>
+			<shadowData>
+				<volume>(0.6,0.5,0.3)</volume>
+				
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -126,6 +134,10 @@
 			<drawSize>(2,2)</drawSize>
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.6,0.5,0.3)</volume>
+				
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -155,6 +167,10 @@
 			<drawSize>(2,2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<color>(105,105,105)</color>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
@@ -248,6 +264,10 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<color>(96,77,55)</color>
+			<shadowData>
+				<volume>(0.35, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
@@ -275,6 +295,10 @@
 			<drawSize>(1,1)</drawSize>
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.35, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
@@ -331,7 +355,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.75, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(96,77,55)</color>
 		</graphicData>
@@ -361,7 +385,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.75, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(96,77,55)</color>
 		</graphicData>
@@ -391,7 +415,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.75, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
@@ -422,7 +446,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.75, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
@@ -453,7 +477,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.15, 0.10, 2.20)</volume>
+				<volume>(0.25, 0.25, 0.25)</volume>
 			</shadowData>
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
@@ -483,7 +507,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.25, 0.30, 0.40)</volume>
 			</shadowData>
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>

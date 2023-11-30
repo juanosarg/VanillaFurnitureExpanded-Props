@@ -48,7 +48,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.5,1.5)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -558,7 +559,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -573,7 +573,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -591,7 +592,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -606,7 +606,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -624,7 +625,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -639,7 +639,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -657,7 +658,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -690,7 +690,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -705,7 +704,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -723,7 +723,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -738,7 +737,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -756,7 +756,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -771,7 +770,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -789,7 +789,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -804,7 +803,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -822,7 +822,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -837,7 +836,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -855,7 +855,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -870,7 +869,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -888,7 +888,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -903,7 +902,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -921,7 +921,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -936,7 +935,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -954,7 +954,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -969,7 +968,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -987,7 +987,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1002,7 +1001,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -1020,7 +1020,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1169,7 +1168,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.5,1.5)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -1187,7 +1187,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1220,7 +1219,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1235,7 +1233,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.5,1.5)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -1253,7 +1252,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1268,7 +1266,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -1286,7 +1285,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1301,7 +1299,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -1319,7 +1318,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -1334,7 +1332,8 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0, 0, 0)</volume>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -1352,7 +1351,6 @@
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>

@@ -9,6 +9,10 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<color>(255,191,97)</color>
+			<shadowData>
+				<volume>(1.5,0.5,0.3)</volume>
+				<offset>(0,0,-0.2</offset>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
@@ -36,7 +40,8 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.5,0.5,0.3)</volume>
+				<offset>(0,0,-0.2</offset>
 			</shadowData>
 		</graphicData>
 		<pathCost>42</pathCost>
@@ -122,6 +127,9 @@
 			<texPath>Things/Building/FarmProps/Hedge</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
@@ -180,7 +188,7 @@
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(2, 0.60, 0.60)</volume>
 			</shadowData>
 			<color>(255,183,87)</color>
 		</graphicData>
@@ -209,7 +217,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.2, 0.60, 0.60)</volume>
 			</shadowData>
 			<color>(255,208,176)</color>
 		</graphicData>

@@ -106,7 +106,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.25, 1.25, 1.25)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -162,7 +162,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2.5)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(0.55, 0.30, 1.5)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -244,9 +244,10 @@
 			<texPath>Things/Building/PowerProps/Generator/Generator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
-			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
-			</shadowData>
+			 <shadowData>
+        <volume>(1.93,1,1.69)</volume>
+        <offset>(-0.03,0,-0.1)</offset>
+      </shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -273,9 +274,10 @@
 			<texPath>Things/Building/PowerProps/IndustrialGenerator/IndustrialGenerator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
-			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
-			</shadowData>
+			 <shadowData>
+        <volume>(2.93,2,2.69)</volume>
+        <offset>(-0.03,0,-0.1)</offset>
+      </shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -302,9 +304,10 @@
 			<texPath>Things/Building/PowerProps/GeneratorUnitLarge</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(3,3)</drawSize>
-			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
-			</shadowData>
+			 <shadowData>
+        <volume>(1.93,1,1.69)</volume>
+        <offset>(-0.03,0,-0.1)</offset>
+      </shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -332,7 +335,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1, 0.30, 1)</volume>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -361,7 +364,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(2, 2, 2)</volume>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -418,7 +421,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(2, 2, 2)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -447,7 +450,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(2, 2, 2)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -477,7 +480,7 @@
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.15, 0.10, 2.20)</volume>
+				<volume>(0.15, 2, 0.15)</volume>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>

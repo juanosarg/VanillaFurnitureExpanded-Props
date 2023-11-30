@@ -9,7 +9,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(2.5, 0.4, 0.40)</volume>
 			</shadowData>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -39,10 +39,13 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.5, 0.4, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<castEdgeShadows>True</castEdgeShadows>
+	
 		<fillPercent>0.25</fillPercent>
 		<pathCost>14</pathCost>
 		<statBases>
@@ -67,7 +70,7 @@
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.55, 0.60, 0.40)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -124,6 +127,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(2.55, 0.60, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -152,7 +158,7 @@
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.55, 0.60, 0.40)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -209,6 +215,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.55, 0.60, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -236,6 +245,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
@@ -263,6 +275,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
@@ -290,6 +305,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.55, 0.60, 1.40)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
@@ -317,6 +335,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(2.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -343,6 +364,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1.2,1.2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<rotatable>true</rotatable>
@@ -371,6 +395,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
@@ -423,6 +450,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>

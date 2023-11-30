@@ -277,9 +277,7 @@
 			<texPath>Things/Building/IndustrialProps/Pallet/Pallet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
-			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
-			</shadowData>
+			
 		</graphicData>
 		<rotatable>False</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -294,7 +292,7 @@
 		<size>(2,2)</size>
 		
 		<uiIconScale>1</uiIconScale>
-		<castEdgeShadows>True</castEdgeShadows>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -374,7 +372,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,4)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.25, 0.30, 2.25)</volume>
 			</shadowData>
 		</graphicData>
 		<pathCost>42</pathCost>
@@ -406,7 +404,7 @@
 			<color>(252,201,99)</color>
 			<drawSize>(3,4)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(1.25, 0.30, 2.25)</volume>
 			</shadowData>
 		</graphicData>
 		<pathCost>42</pathCost>
@@ -623,7 +621,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(6,6)</drawSize>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(2, 2, 2)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
