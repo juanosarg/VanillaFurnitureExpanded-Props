@@ -14,6 +14,7 @@
 		<rotatable>false</rotatable>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
+		<pathCost>42</pathCost>
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -38,6 +39,7 @@
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
 		</graphicData>
+		<pathCost>42</pathCost>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -70,6 +72,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
+		<pathCost>30</pathCost>
 		<statBases>
 			<MaxHitPoints>70</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -98,6 +101,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.05</fillPercent>
+		<pathCost>14</pathCost>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -152,6 +156,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<pathCost>14</pathCost>
 		<fillPercent>0.4</fillPercent>
 		<statBases>
 			<MaxHitPoints>70</MaxHitPoints>

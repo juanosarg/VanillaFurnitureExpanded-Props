@@ -114,5 +114,23 @@
 		<priority>18</priority>
 		<prop>VFEPD_VentilationShaft</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_19</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>19</priority>
+		<prop>VFEPD_ElectricalCabinet</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_20</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>20</priority>
+		<prop>VFEPD_Lockers</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Industrial_21</defName>
+		<category>VFE_PropCategory_Industrial</category>		
+		<priority>21</priority>
+		<prop>VFEPD_GasTank</prop>
+	</VFEProps.PropDef>
 	
 </Defs>

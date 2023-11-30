@@ -23,6 +23,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -55,6 +56,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -84,6 +86,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -113,6 +116,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>1</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -194,6 +198,7 @@
 		</graphicData>
 		<size>(3, 1)</size>
 		<fillPercent>0.40</fillPercent>
+		
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
@@ -440,6 +445,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.2</fillPercent>
+		<pathCost>14</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -470,6 +476,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -509,6 +516,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(6,6)</size>
+		<pathCost>42</pathCost>
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -539,6 +547,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,2)</size>
+		<pathCost>42</pathCost>
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -567,6 +576,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
+		<pathCost>42</pathCost>
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>

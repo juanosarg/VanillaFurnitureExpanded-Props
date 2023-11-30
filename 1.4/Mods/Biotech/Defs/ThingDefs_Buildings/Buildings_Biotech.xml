@@ -39,6 +39,7 @@
 		</graphicData>
 		 <defaultPlacingRot>South</defaultPlacingRot>
 		<size>(4,3)</size>
+		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>

@@ -23,6 +23,7 @@
 		<fillPercent>0.2</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
+		<pathCost>42</pathCost>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -55,6 +56,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.2</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -84,6 +86,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.2</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -113,6 +116,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -143,6 +147,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>

@@ -12,6 +12,8 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.35</fillPercent>
+		
+		<pathCost>42</pathCost>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>

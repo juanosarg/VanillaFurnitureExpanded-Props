@@ -74,6 +74,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<rotatable>true</rotatable>
+		<pathCost>14</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
@@ -129,6 +130,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<rotatable>true</rotatable>
+		<pathCost>14</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.4</fillPercent>
 		<statBases>
@@ -156,6 +158,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.1</fillPercent>
 		<statBases>
@@ -220,8 +223,8 @@
 		<selectable>true</selectable>
 		<uiIconOffset>(0, -0.04)</uiIconOffset>
 		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>14</pathCost>
 		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
 		<rotatable>false</rotatable>
 		<graphicData>
 			<texPath>Things/Building/MedievalProps/BrazierEmpty/BrazierEmpty</texPath>
@@ -302,6 +305,7 @@
 			</shadowData>
 			<color>(96,77,55)</color>
 		</graphicData>
+		<pathCost>14</pathCost>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -331,6 +335,7 @@
 			</shadowData>
 			<color>(96,77,55)</color>
 		</graphicData>
+		<pathCost>30</pathCost>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -360,6 +365,7 @@
 			</shadowData>
 			<color>(96,77,55)</color>
 		</graphicData>
+		<pathCost>42</pathCost> 
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -394,6 +400,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
+		<pathCost>42</pathCost>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>
@@ -420,6 +427,7 @@
 			<color>(96,77,55)</color>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<pathCost>42</pathCost>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -484,6 +492,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
+		<pathCost>42</pathCost>
 		<statBases>
 			<MaxHitPoints>40</MaxHitPoints>
 			<WorkToBuild>0</WorkToBuild>

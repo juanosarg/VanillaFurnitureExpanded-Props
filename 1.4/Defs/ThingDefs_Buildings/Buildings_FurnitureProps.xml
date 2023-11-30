@@ -20,6 +20,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>14</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -52,6 +53,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
+		<pathCost>42</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -85,6 +87,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
+		<pathCost>42</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -118,6 +121,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
+		<pathCost>42</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -152,6 +156,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
+		<pathCost>42</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -187,6 +192,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -220,6 +226,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -253,6 +260,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -287,6 +295,7 @@
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
+		<pathCost>42</pathCost>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<repairEffect>ConstructMetal</repairEffect>
 		<statBases>
@@ -465,6 +474,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
+		<pathCost>14</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -499,6 +509,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
+		<pathCost>14</pathCost>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -527,6 +538,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
+		<pathCost>14</pathCost>
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
@@ -607,7 +619,7 @@
 		
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>Impassable</passability>
+	
 		<fillPercent>0.1</fillPercent>
 		<rotatable>false</rotatable>
 	
