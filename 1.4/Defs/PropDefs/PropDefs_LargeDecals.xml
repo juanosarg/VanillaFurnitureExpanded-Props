@@ -39,11 +39,25 @@
 		<prop>VFEPD_LargeDecalLineDoubleCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_5Round</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>5.5</priority>
+		<shortLabel>lrg. double inner round</shortLabel>
+		<prop>VFEPD_LargeDecalLineDoubleCornerInnerRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_6</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>6</priority>
 		<shortLabel>lrg. double outer corner</shortLabel>
 		<prop>VFEPD_LargeDecalLineDoubleCornerOuter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_6Round</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>6.5</priority>
+		<shortLabel>lrg. double outer round</shortLabel>
+		<prop>VFEPD_LargeDecalLineDoubleCornerOuterRound</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_7</defName>
@@ -60,11 +74,25 @@
 		<prop>VFEPD_LargeDecalLineThinCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_8Round</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>8.5</priority>
+		<shortLabel>lrg. thin inner round</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCornerInnerRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_9</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>9</priority>
 		<shortLabel>lrg. thin outer corner</shortLabel>
 		<prop>VFEPD_LargeDecalLineThinCornerOuter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_9Round</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.5</priority>
+		<shortLabel>lrg. thin outer round</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCornerOuterRound</prop>
 	</VFEProps.PropDef>
 	
 	<!-- Letters decals -->

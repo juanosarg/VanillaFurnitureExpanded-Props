@@ -42,11 +42,25 @@
 		<prop>VFEPD_DecalLineDoubleCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_5Round</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>5.5</priority>
+		<shortLabel>double inner round</shortLabel>
+		<prop>VFEPD_DecalLineDoubleCornerInnerRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_6</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>6</priority>
 		<shortLabel>double outer corner</shortLabel>
 		<prop>VFEPD_DecalLineDoubleCornerOuter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_6Round</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>6.5</priority>
+		<shortLabel>double outer round</shortLabel>
+		<prop>VFEPD_DecalLineDoubleCornerOuterRound</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_7</defName>
@@ -62,11 +76,25 @@
 		<prop>VFEPD_DecalLineThinCornerInner</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_8Round</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>8.5</priority>
+		<shortLabel>thin inner round</shortLabel>
+		<prop>VFEPD_DecalLineThinCornerInnerRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_Decals_9</defName>
 		<category>VFE_PropCategory_Decals</category>
 		<priority>9</priority>
 		<shortLabel>thin outer corner</shortLabel>
 		<prop>VFEPD_DecalLineThinCornerOuter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_9Round</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>9.5</priority>
+		<shortLabel>thin outer round</shortLabel>
+		<prop>VFEPD_DecalLineThinCornerOuterRound</prop>
 	</VFEProps.PropDef>
 	
 	<!-- Letters decals -->

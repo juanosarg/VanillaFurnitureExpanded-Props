@@ -181,7 +181,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_Exhaust</defName>
 		<label>exhaust</label>
 		<description>An exhaust port for the fumes of industrialism.</description>
@@ -192,6 +192,8 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
+			<color>(181,181,181)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -209,7 +211,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_SmallExhaust</defName>
 		<label>small exhaust</label>
 		<description>A small exhaust port for the fumes of industrialism.</description>
@@ -220,6 +222,8 @@
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
+			<color>(132,132,132)</color>
+		
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -355,7 +359,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_GasStorageUnit</defName>
 		<label>gas storage unit</label>
 		<description>An industrial style gas storage unit.</description>
@@ -366,6 +370,8 @@
 			<shadowData>
 				<volume>(2, 2, 2)</volume>
 			</shadowData>
+			<color>(97,118,93)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -441,7 +447,7 @@
 		</building>
 	</ThingDef>
 	
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_CoalBurner</defName>
 		<label>coal burner</label>
 		<description>An industrial style coal burner.</description>
@@ -452,6 +458,8 @@
 			<shadowData>
 				<volume>(2, 2, 2)</volume>
 			</shadowData>
+			<color>(166,166,166)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<castEdgeShadows>True</castEdgeShadows>

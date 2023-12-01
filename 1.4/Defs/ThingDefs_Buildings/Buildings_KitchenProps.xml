@@ -151,17 +151,19 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_Fridge</defName>
 		<label>fridge</label>
 		<description>A large fridge with an in-built freezer.</description>
 		<graphicData>
-			<texPath>Things/Building/KitchenProps/Fridge/Fridge</texPath>
+			<texPath>Things/Building/KitchenProps/Fridge/KitchenFridge</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
+			<color>(157,157,157)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
@@ -238,7 +240,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_KitchenSurface</defName>
 		<label>kitchen surface</label>
 		<description>A simple kitchen surface with a cutting board.</description>
@@ -249,6 +251,8 @@
 			<shadowData>
 				<volume>(2.5, 0.4, 0.40)</volume>
 			</shadowData>
+			<color>(157,157,157)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -268,9 +272,9 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_KitchenSurfaceEmpty</defName>
-		<label>kitchen surface empty</label>
+		<label>kitchen surface, empty</label>
 		<description>A simple kitchen surface.</description>
 		<graphicData>
 			<texPath>Things/Building/KitchenProps/KitchenSurfaceEmpty/KitchenSurfaceEmpty</texPath>
@@ -279,6 +283,8 @@
 			<shadowData>
 				<volume>(2.5, 0.4, 0.40)</volume>
 			</shadowData>
+			<color>(157,157,157)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -298,7 +304,7 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_KitchenSink</defName>
 		<label>kitchen sink</label>
 		<description>A long kitchen sink.</description>
@@ -309,6 +315,8 @@
 			<shadowData>
 				<volume>(2.5, 0.4, 0.40)</volume>
 			</shadowData>
+			<color>(157,157,157)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>

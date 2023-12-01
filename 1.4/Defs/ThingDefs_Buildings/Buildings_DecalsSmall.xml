@@ -47,10 +47,28 @@
 		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineDoubleCornerInnerRound</defName>
+		<label>decal line double inner corner round</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineDoubleCornerInnerRound</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineDoubleCornerOuter</defName>
 		<label>decal line double outer corner</label>
 		<graphicData>
 			<texPath>Things/Building/Decals/DecalLineDoubleCornerOuter</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineDoubleCornerOuterRound</defName>
+		<label>decal line double outer corner round</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineDoubleCornerOuterRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		
@@ -74,10 +92,28 @@
 		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCornerInnerRound</defName>
+		<label>decal line thin inner corner round</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCornerInnerRound</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineThinCornerOuter</defName>
 		<label>decal line thin outer corner</label>
 		<graphicData>
 			<texPath>Things/Building/Decals/DecalLineThinCornerOuter</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCornerOuterRound</defName>
+		<label>decal line thin outer corner round</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCornerOuterRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		
