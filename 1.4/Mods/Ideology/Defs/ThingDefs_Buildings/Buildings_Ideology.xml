@@ -176,7 +176,6 @@
 		<rotatable>false</rotatable>
 		<size>(1, 1)</size>
 		<altitudeLayer>Building</altitudeLayer>
-		
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.3</fillPercent>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -1678,7 +1677,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_FireSmokeEffect</defName>
 		<label>fire smoke</label>
@@ -1904,6 +1902,368 @@
 		<comps>
 			<li Class="VFEProps.CompProperties_AttachEffecter">
 				<effecterDef>GauranlenLeavesBatch</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ChristmasTree</defName>
+		<label>christmas tree</label>
+		<description>A celebratory tree decorated with ornaments and lights traditionally made as part of Christmas celebrations. Made of plastic.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/PlantProps/VFEPD_ChristmasTree/VFEPD_ChristmasTree</texPath>
+			<drawSize>(2.2,2.2)</drawSize>
+			<drawOffset>(0, 0, 0.75)</drawOffset>
+			<shadowData>
+				<volume>(0.8, 1.5, 0.8)</volume>
+				<offset>(0, 0, -0.25)</offset>
+			</shadowData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(247,215,107)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<pathCost>42</pathCost>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeGauranlenMoss</defName>
+		<label>fake gauranlen moss</label>
+		<description>Plastic grass painted in the same colour as gauranlen moss. Probably terrible for the environment.</description>
+		<graphicData>
+			<texPath>Things/Plant/GauranlenMoss</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeGauranlenTree</defName>
+		<label>fake gauranlen tree</label>
+		<description>Plastic tree imitating a gauranlen tree. No dryads here.</description>
+		<graphicData>
+			<texPath>Things/Plant/GauranlenTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.21, 0.6, 0.21)</volume>
+			</shadowData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Nutrifungus</defName>
+		<label>nutrifungus</label>
+		<description>A fake meaty bioengineered mushroom grown for its nutritious value.</description>
+		<graphicData>
+			<texPath>Things/Plant/Nutrifungus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Fibercorn</defName>
+		<label>fibercorn</label>
+		<description>A fake inedible, fibrous plant which usually produces a small amount of a wood-like substance.</description>
+		<graphicData>
+			<texPath>Things/Plant/Fibercorn</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Timbershroom</defName>
+		<label>timbershroom</label>
+		<description>A fake tall brown mushroom with a long stem.</description>
+		<graphicData>
+			<texPath>Things/Plant/Timbershroom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.6, 0.2)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeBonsai</defName>
+		<label>bonsai tree</label>
+		<description>A fake tree, pruned and shaped to look visually pleasing.</description>
+		<graphicData>
+			<texPath>Things/Plant/BonsaiTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchonexusCore</defName>
+		<label>archonexus core</label>
+		<description>A cardboard imitation of the central core of an archonexus.</description>
+		<size>(11, 11)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/ArchonexusCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(11, 11)</drawSize>
+			<shadowData>
+				<volume>(9.8, 1, 8)</volume>
+				<offset>(0,0,-0.66)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GrandArchotechStructure</defName>
+		<label>grand archotech structure</label>
+		<description>A cardboard imitation of a grand archotech structure of towering height and impressive bulk.</description>
+		<size>(9, 9)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/GrandArchotechStructure</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(9, 9)</drawSize>
+			<shadowData>
+				<volume>(8.1, 1, 6.2)</volume>
+				<offset>(0,0,-0.66)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MajorArchotechStructure</defName>
+		<label>major archotech structure</label>
+		<description>A cardboard imitation of a large archotech structure.</description>
+		<size>(7, 7)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/MajorArchotechStructure</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7, 7)</drawSize>
+			<shadowData>
+				<volume>(7, 1, 5)</volume>
+				<offset>(0,0,-0.76)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ArchotechTower</defName>
+		<label>archotech tower</label>
+		<description>A cardboard imitation of a large archotech structure.</description>
+		<size>(5, 5)</size>
+		<graphicData>
+			<texPath>Things/Building/Special/ArchotechTower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 1, 3.2)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FalseBlueFire</defName>
+		<label>fake darkfire</label>
+		<description>This is just smoke and mirrors.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconPath>Things/Special/Darklight/DarkFireA</uiIconPath>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.20</fillPercent>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<comps>
+			<li Class="VFEProps.CompProperties_ConstantFireOverlay">
+				<blueGraphic>true</blueGraphic>
 			</li>
 		</comps>
 	</ThingDef>

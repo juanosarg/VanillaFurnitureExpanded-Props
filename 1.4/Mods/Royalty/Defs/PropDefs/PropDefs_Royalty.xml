@@ -12,6 +12,18 @@
 		<priority>4</priority>
 		<prop>VFEPD_Shuttle</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_42</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>42</priority>
+		<prop>VFEPD_FakeAnimaGrass</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_43</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>43</priority>
+		<prop>VFEPD_FakeAnimaTree</prop>
+	</VFEProps.PropDef>
 
 	
 </Defs>

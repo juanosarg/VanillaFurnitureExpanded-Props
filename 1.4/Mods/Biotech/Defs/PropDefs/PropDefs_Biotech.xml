@@ -130,4 +130,52 @@
 		<priority>54</priority>
 		<prop>VFEPD_ApocritonPulseEffect</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_51</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>51</priority>
+		<prop>VFEPD_FakePoluxTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_52</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>52</priority>
+		<prop>VFEPD_ToxiPotato</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_53</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>53</priority>
+		<prop>VFEPD_GrayGrass</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_54</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>54</priority>
+		<prop>VFEPD_Ripthorn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_55</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>55</priority>
+		<prop>VFEPD_PebbleCactus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_56</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>56</priority>
+		<prop>VFEPD_TreeGrayPine</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_57</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>57</priority>
+		<prop>VFEPD_Witchwood</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_58</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>58</priority>
+		<prop>VFEPD_RatPalm</prop>
+	</VFEProps.PropDef>
 </Defs>

@@ -10,7 +10,8 @@ namespace VFEProps
         public const int FireGlowIntervalTicks = 30;
 
         public static readonly Graphic FireGraphic = GraphicDatabase.Get<Graphic_Flicker>("Things/Special/Fire", ShaderDatabase.TransparentPostLight, Vector2.one, Color.white);
-        public static  readonly Graphic FireGraphic2 = GraphicDatabase.Get<Graphic_Flicker>("Things/Building/ModCompat/LargeFire", ShaderDatabase.TransparentPostLight, Vector2.one, Color.white);
+        public static readonly Graphic FireGraphic2 = GraphicDatabase.Get<Graphic_Flicker>("Things/Building/ModCompat/LargeFire", ShaderDatabase.TransparentPostLight, Vector2.one, Color.white);
+        public static readonly Graphic FireGraphic3 = GraphicDatabase.Get<Graphic_Flicker>("Things/Special/Darklight", ShaderDatabase.TransparentPostLight, Vector2.one, Color.white);
 
 
         public new CompProperties_ConstantFireOverlay Props => (CompProperties_ConstantFireOverlay)props;
@@ -24,6 +25,10 @@ namespace VFEProps
             if (Props.bigGraphic)
             {
                 FireGraphic2.Draw(loc, Rot4.North, this.parent, 0f);
+            }
+            else if (Props.blueGraphic)
+            {
+                FireGraphic3.Draw(loc, Rot4.North, this.parent, 0f);
             }
             else
             {
@@ -39,7 +44,7 @@ namespace VFEProps
             {
                 this.startedGrowingAtTick = GenTicks.TicksAbs;
             }
-            if (GenTicks.TicksAbs % FireGlowIntervalTicks == 0)
+            if (GenTicks.TicksAbs % FireGlowIntervalTicks == 0 && !Props.blueGraphic)
             {
                 FleckMaker.ThrowFireGlow(this.parent.TrueCenter(), this.parent.Map, 1f);
             }

@@ -12,6 +12,8 @@ namespace VFEProps
 
         public bool bigGraphic = false;
 
+        public bool blueGraphic = false;
+
         public CompProperties_ConstantFireOverlay()
         {
             compClass = typeof(CompConstantFireOverlay);

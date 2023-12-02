@@ -14,7 +14,7 @@
 			</shadowData>
 		</graphicData>
 		<size>(3,2)</size>
-		 <defaultPlacingRot>South</defaultPlacingRot>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -37,7 +37,7 @@
 				<volume>(4, 1, 2.9)</volume>
 			</shadowData>
 		</graphicData>
-		 <defaultPlacingRot>South</defaultPlacingRot>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<size>(4,3)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -62,7 +62,7 @@
 				<volume>(2.9, 0.5, 0.9)</volume>
 			</shadowData>
 		</graphicData>
-		 <defaultPlacingRot>South</defaultPlacingRot>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<size>(3,1)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -86,7 +86,7 @@
 				<volume>(2.8, 0.5, 1.8)</volume>
 			</shadowData>
 		</graphicData>
-		 <defaultPlacingRot>South</defaultPlacingRot>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<size>(3,2)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -135,7 +135,6 @@
 				<volume>(0.9, 1, 0.9)</volume>
 			</shadowData>
 		</graphicData>
-		
 		<size>(2,2)</size>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -222,7 +221,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_ControlMechEffect</defName>
 		<label>control mech</label>
@@ -489,7 +487,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_AncientExostriderRemainsPulseEffect</defName>
 		<label>exostrider pulse</label>
@@ -679,5 +676,251 @@
 				<effecterDef>ApocrionAttached</effecterDef>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakePoluxTree</defName>
+		<label>fake polux tree</label>
+		<description>Plastic tree imitating a polux tree. No pollution cleaning here.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreePolux</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.35, 0.3, 0.35)</volume>
+				<offset>(0,0,0.05)</offset>
+			</shadowData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ToxiPotato</defName>
+		<label>toxipotato plant</label>
+		<description>A fake genetically-engineered variant of potato adapted for growing in polluted areas.</description>
+		<graphicData>
+			<texPath>Things/Plant/Toxipotato</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>5</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_GrayGrass</defName>
+		<label>gray grass</label>
+		<description>This is just plastic grass painted gray. Gray? Grey? Can't you people just decide on one??</description>
+		<graphicData>
+			<texPath>Things/Plant/Graygrass</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Ripthorn</defName>
+		<label>ripthorn</label>
+		<description>A fake short toxin-adapted shrub that looks like a dense, tough tangle of thorny branches.</description>
+		<graphicData>
+			<texPath>Things/Plant/Ripthorn</texPath>
+			<drawSize>1.4</drawSize>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_PebbleCactus</defName>
+		<label>pebble cactus</label>
+		<description>A fake small cactus that resembles a cluster of pebbles.</description>
+		<graphicData>
+			<texPath>Things/Plant/PebbleCactus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(-0.1,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_TreeGrayPine</defName>
+		<label>gray pine tree</label>
+		<description>A fake small toxin-adapted tree with twisted branches.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeGrayPine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Witchwood</defName>
+		<label>witchwood tree</label>
+		<description>A fake small toxin-adapted tree with a twisted trunk.</description>
+		<graphicData>
+			<texPath>Things/Plant/Witchwood</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.35, 0.08)</volume>
+				<offset>(0,0,-0.34)</offset>
+			</shadowData>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_RatPalm</defName>
+		<label>rat palm tree</label>
+		<description>A fake tree similar to a palm tree with dense surface roots.</description>
+		<graphicData>
+			<texPath>Things/Plant/RatPalm</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
 	</ThingDef>
 </Defs>

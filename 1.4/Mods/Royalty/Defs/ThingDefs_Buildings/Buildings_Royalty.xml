@@ -43,16 +43,13 @@
 		<graphicData>
 			<texPath>Things/Building/Misc/Shuttle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			
 			<drawSize>(5,3)</drawSize>
 			<shadowData>
 				<volume>(0.55, 0.30, 0.40)</volume>
 			</shadowData>
-			
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
-		
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>Impassable</passability>
@@ -68,5 +65,70 @@
 		<size>(5,3)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
-	
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeAnimaGrass</defName>
+		<label>fake anima grass</label>
+		<description>Plastic grass painted in the same colour as anima grass. Probably terrible for the environment.</description>
+		<graphicData>
+			<texPath>Things/Plant/Grass_Anima</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0, 0, 0)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>1.5</Flammability>
+			
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeAnimaTree</defName>
+		<label>fake anima tree</label>
+		<description>Plastic tree imitating an anima tree. Doesn't provide any sort of psychic powers.</description>
+		<graphicData>
+			<texPath>Things/Plant/TreeAnima</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.12, 0.08, 0.1)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+			
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
 </Defs>

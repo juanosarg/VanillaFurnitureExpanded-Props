@@ -516,4 +516,79 @@
 		<priority>38</priority>
 		<prop>VFEPD_GauranlenLeavesBatchEffect</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_44</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>44</priority>
+		<prop>VFEPD_ChristmasTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_45</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>45</priority>
+		<prop>VFEPD_FakeGauranlenMoss</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_46</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>46</priority>
+		<prop>VFEPD_FakeGauranlenTree</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_47</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>47</priority>
+		<prop>VFEPD_Nutrifungus</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_48</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>48</priority>
+		<prop>VFEPD_Fibercorn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_49</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>49</priority>
+		<prop>VFEPD_Timbershroom</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Plants_50</defName>
+		<category>VFE_PropCategory_Plants</category>		
+		<priority>50</priority>
+		<prop>VFEPD_TreeBonsai</prop>
+	</VFEProps.PropDef>
+	
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_17</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>17</priority>
+		<prop>VFEPD_ArchonexusCore</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_18</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>18</priority>
+		<prop>VFEPD_GrandArchotechStructure</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_19</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>19</priority>
+		<prop>VFEPD_MajorArchotechStructure</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_20</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>20</priority>
+		<prop>VFEPD_ArchotechTower</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_25Dark</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>25.1</priority>
+		<prop>VFEPD_FalseBlueFire</prop>
+		
+	</VFEProps.PropDef>
 </Defs>
