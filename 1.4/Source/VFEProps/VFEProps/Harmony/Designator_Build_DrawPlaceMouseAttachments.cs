@@ -24,7 +24,7 @@ namespace VFEProps
         public static void AddSilverCost(BuildableDef ___entDef, float curY, float curX)
 
         {
-            if(___entDef.defName.Contains("VFEPD_")&& ___entDef.costList.NullOrEmpty())
+            if(___entDef!=null&&StaticCollections.props.Contains(___entDef)&& ___entDef.costList.NullOrEmpty())
             {
 
                 float y = curY;

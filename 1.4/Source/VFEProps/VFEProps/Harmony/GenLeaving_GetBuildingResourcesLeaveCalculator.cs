@@ -22,7 +22,7 @@ namespace VFEProps
         static void ReturnSilver(Thing diedThing, Map map)
         {
 
-            if (diedThing.def.defName.Contains("VFEPD_") && diedThing.def.costList.NullOrEmpty() && map != null)
+            if (diedThing!=null&&StaticCollections.props.Contains(diedThing.def) && diedThing.def.costList.NullOrEmpty() && map != null)
             {
                 int silverAmount = 0;
                 PropDef prop = (from x in DefDatabase<PropDef>.AllDefsListForReading

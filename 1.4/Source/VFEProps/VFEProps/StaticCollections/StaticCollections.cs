@@ -30,6 +30,10 @@ namespace VFEProps
                 {
                     stupidErrors_Things.Add(prop.prop);
                 }
+                if (!prop.useMatsInsteadOfSilver)
+                {
+                    props.Add(prop.prop);
+                }
             }
 
             foreach (PropCategoryDef category in DefDatabase<PropCategoryDef>.AllDefsListForReading)
@@ -50,10 +54,14 @@ namespace VFEProps
 
         //This static class stores lists for different things.
 
-        // A list of designators that shouldn't appear on the architect menu
+        // A general list of props, cached for the Harmony patches
+        public static HashSet<BuildableDef> props = new HashSet<BuildableDef>();
+
+        // A list of designators that shouldn't appear on the architect menu. Used for buildings that have a costlist
         public static HashSet<BuildableDef> hidden_designators = new HashSet<BuildableDef>();
 
-        // A list of things that usually pop up stupid errors in-game
+        // A list of things that usually pop up stupid errors in-game (especifically an error when displaying Graphic_Cluster as a Designator).
+        // Used on filth props
         public static HashSet<BuildableDef> stupidErrors_Things = new HashSet<BuildableDef>();
 
         // A list of categories that should be shown. Categories without props will be hidden

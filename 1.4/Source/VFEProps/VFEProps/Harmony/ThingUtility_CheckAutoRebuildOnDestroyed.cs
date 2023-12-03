@@ -23,7 +23,7 @@ namespace VFEProps
         public static bool NoAutoRebuildProps(Thing thing)
 
         {
-            if (thing.def.defName.Contains("VFEPD_"))
+            if (thing != null && StaticCollections.props.Contains(thing.def))
             {
                 return false;
             }

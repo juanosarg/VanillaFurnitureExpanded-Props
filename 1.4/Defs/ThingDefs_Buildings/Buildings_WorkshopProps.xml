@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyAdvResearch</defName>
+		<label>empty hi-tech research bench</label>
+		<description>A working surface to fill with laboratory stuff. Non-functional for research purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyAdvResearch/VPEPD_EmptyAdvResearch</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			
+			<drawSize>(7,4)</drawSize>
+			<shadowData>
+				<volume>(0.30, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>		
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,2)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	
+</Defs>
