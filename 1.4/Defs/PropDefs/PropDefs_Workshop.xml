@@ -69,6 +69,41 @@
 		<priority>11</priority>
 		<prop>VPEPD_EmptyWorkbench</prop>
 	</VFEProps.PropDef>
-	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Workshop_12</defName>
+		<category>VFE_PropCategory_Workshop</category>		
+		<priority>12</priority>
+		<prop>VFEPD_Smelter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Workshop_13</defName>
+		<category>VFE_PropCategory_Workshop</category>		
+		<priority>13</priority>
+		<prop>VFEPD_ChemfuelTankSmall</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Workshop_14</defName>
+		<category>VFE_PropCategory_Workshop</category>		
+		<priority>14</priority>
+		<prop>VFEPD_SmelterExhaust</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Workshop_15</defName>
+		<category>VFE_PropCategory_Workshop</category>		
+		<priority>15</priority>
+		<prop>VFEPD_ConveyorInput</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Workshop_16</defName>
+		<category>VFE_PropCategory_Workshop</category>		
+		<priority>16</priority>
+		<prop>VFEPD_SmelterGizmo</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Workshop_17</defName>
+		<category>VFE_PropCategory_Workshop</category>		
+		<priority>17</priority>
+		<prop>VFEPD_SmelterHeater</prop>
+	</VFEProps.PropDef>
 	
 </Defs>

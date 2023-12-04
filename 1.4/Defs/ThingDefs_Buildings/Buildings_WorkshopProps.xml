@@ -153,7 +153,6 @@
 		<graphicData>
 			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyResearch/VPEPD_EmptyResearch</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			
 			<drawSize>(5,4)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -277,7 +276,6 @@
 				<cornerTR>Damage/Corner</cornerTR>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-			
 			<color>(133,97,67)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -355,7 +353,6 @@
 				<cornerTR>Damage/Corner</cornerTR>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-			
 			<color>(133,97,67)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -394,7 +391,6 @@
 				<cornerTR>Damage/Corner</cornerTR>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-			
 			<color>(133,97,67)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -415,5 +411,180 @@
 		<building>
 			<isInert>true</isInert>
 		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Smelter</defName>
+		<label>smelter</label>
+		<description>A small smelter. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_Smelter/VFEPD_Smelter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ChemfuelTankSmall</defName>
+		<label>chemfuel tank</label>
+		<description>A small chemfuel tank. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ChemfuelTank/VFEPD_ChemfuelTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmelterExhaust</defName>
+		<label>smelter exhaust</label>
+		<description>A small smelter exhaust. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmelterExhaust/VFEPD_SmelterExhaust</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ConveyorInput</defName>
+		<label>conveyor input</label>
+		<description>A small conveyor input. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_ConveyorInput/VFEPD_ConveyorInput</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmelterGizmo</defName>
+		<label>smelter gizmo</label>
+		<description>A small smelter gizmo. God knows what this does. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmelterGizmo/VFEPD_SmelterGizmo</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_SmelterHeater</defName>
+		<label>smelter heater</label>
+		<description>A small smelter heater. Intended to be placed over an empty workbench. Just for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VFEPD_SmelterHeater/VFEPD_SmelterHeater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
 </Defs>

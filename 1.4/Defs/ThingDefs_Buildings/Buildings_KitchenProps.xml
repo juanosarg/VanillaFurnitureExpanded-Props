@@ -368,11 +368,37 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_CookingAppliances</defName>
-		<label>cooking appliances</label>
-		<description>A singular cooking appliance.</description>
+		<label>pot</label>
+		<description>A large pot.</description>
 		<graphicData>
-			<texPath>Things/Building/KitchenProps/CookingAppliances</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/KitchenProps/CookingAppliances/Pot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.1</fillPercent>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CookingPan</defName>
+		<label>pan</label>
+		<description>A large pan.</description>
+		<graphicData>
+			<texPath>Things/Building/KitchenProps/CookingAppliances/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>

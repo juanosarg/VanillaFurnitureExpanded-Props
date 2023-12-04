@@ -129,6 +129,13 @@
 		<prop>VFEPD_FakeSnowman</prop>
 		
 	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_21</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>21</priority>
+		<prop>VFEPD_Present</prop>
+		
+	</VFEProps.PropDef>
 	
 	
 </Defs>

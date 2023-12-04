@@ -2029,4 +2029,30 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Present</defName>
+		<label>present</label>
+		<description>A festive present. Actually just a painted cardboard box. Booooh.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Present</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(0.7)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.1</fillPercent>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
 </Defs>
