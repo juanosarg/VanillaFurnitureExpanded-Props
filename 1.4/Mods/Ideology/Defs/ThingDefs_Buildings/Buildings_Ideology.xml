@@ -2205,7 +2205,7 @@
 		<defName>VFEPD_ArchotechTower</defName>
 		<label>archotech tower</label>
 		<description>A cardboard imitation of a large archotech structure.</description>
-		<size>(5, 5)</size>
+		<size>(3, 3)</size>
 		<graphicData>
 			<texPath>Things/Building/Special/ArchotechTower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

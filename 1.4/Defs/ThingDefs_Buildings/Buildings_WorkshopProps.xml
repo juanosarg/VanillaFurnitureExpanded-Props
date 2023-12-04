@@ -7,7 +7,6 @@
 		<graphicData>
 			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyAdvResearch/VPEPD_EmptyAdvResearch</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			
 			<drawSize>(7,4)</drawSize>
 			<shadowData>
 				<volume>(0.30, 0.30, 0.40)</volume>
@@ -16,7 +15,7 @@
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<defaultPlacingRot>North</defaultPlacingRot>
-		<castEdgeShadows>False</castEdgeShadows>		
+		<castEdgeShadows>False</castEdgeShadows>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.5</fillPercent>
 		<pathCost>50</pathCost>
@@ -29,10 +28,392 @@
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(5,2)</size>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyBrewery</defName>
+		<label>empty brewery</label>
+		<description>A working surface to fill with brewery stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyBrewery/VPEPD_EmptyBrewery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(104,84,69)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyElectricSmelter</defName>
+		<label>empty smelter</label>
+		<description>A working surface to fill with smeltery stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyElectricSmelter/VPEPD_EmptyElectricSmelter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(111,51,34)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyFabrication</defName>
+		<label>empty fabrication bench</label>
+		<description>A working surface to fill with fabrication stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyFabrication/VPEPD_EmptyFabrication</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(5,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyResearch</defName>
+		<label>empty research bench</label>
+		<description>A working surface to fill with laboratory stuff. Non-functional for research purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyResearch/VPEPD_EmptyResearch</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			
+			<drawSize>(5,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyScultingTable</defName>
+		<label>empty sculpting table</label>
+		<description>A working surface to fill with sculpting stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyScultingTable/VPEPD_EmptyScultingTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptySmithy</defName>
+		<label>empty smithing table</label>
+		<description>A working surface to fill with smithing stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptySmithy/VPEPD_EmptySmithy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(71,60,63)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyStonecutter</defName>
+		<label>empty stonecutting table</label>
+		<description>A working surface to fill with stonecutting stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyStonecutter/VPEPD_EmptyStonecutter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyTableMachining</defName>
+		<label>empty machining table</label>
+		<description>A working surface to fill with machining stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyTableMachining/VPEPD_EmptyTableMachining</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(46,96,108)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyTailoring</defName>
+		<label>empty tailoring table</label>
+		<description>A working surface to fill with tailoring stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyTailoring/VPEPD_EmptyTailoring</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VPEPD_EmptyWorkbench</defName>
+		<label>empty workbench</label>
+		<description>A working surface to fill with production stuff. Non-functional for crafting purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/WorkshopProps/VPEPD_EmptyWorkbench/VPEPD_EmptyWorkbench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.3, 0.54)</volume>
+				<offset>(0, 0, -0.18)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,2.7,1)</rect>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<castEdgeShadows>False</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>6</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
 </Defs>
