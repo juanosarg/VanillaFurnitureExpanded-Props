@@ -59,7 +59,7 @@
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Office</defName>
 		<label>office</label>
-		<description>Office and research lab props.</description>
+		<description>Encompasses items such as desks, chairs, computers, laboratory equipment, whiteboards, office supplies, and other elements commonly found in professional workspaces.</description>
 		<priority>5.5</priority>
 		<icon>UI/Categories/Props_Furniture</icon>
 	</VFEProps.PropCategoryDef>
@@ -105,18 +105,12 @@
 		<priority>11</priority>
 		<icon>UI/Categories/Props_Spaceships</icon>
 	</VFEProps.PropCategoryDef>
-	<VFEProps.PropCategoryDef>
-		<defName>VFE_PropCategory_Plants</defName>
-		<label>plants</label>
-		<description>Base game plants as props.</description>
-		<priority>12</priority>
-		<icon>UI/Categories/Props_Plants</icon>
-	</VFEProps.PropCategoryDef>
+	
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Park</defName>
 		<label>parks</label>
 		<description>General outdoors props in a nature setting.</description>
-		<priority>12.5</priority>
+		<priority>12</priority>
 		<icon>UI/Categories/Props_Plants</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
@@ -157,23 +151,100 @@
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Labs</defName>
 		<label>labs</label>
-		<description>Props found in ancient abandoned labs.</description>
+		<description>Props found in ancient abandoned labs. Usually quite derelict.</description>
 		<priority>17</priority>
 		<icon>UI/Categories/Props_Lab</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Bedroom</defName>
 		<label>bedroom</label>
-		<description>Bedroom props.</description>
+		<description>Items such as beds, bedding, furniture (dressers, nightstands), lamps, curtains, and other decor elements commonly found in bedrooms.</description>
 		<priority>18</priority>
 		<icon>UI/Categories/Props_Bedroom</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_DiningRoom</defName>
+		<label>dining room</label>
+		<description>Items such as tables, chairs, tableware (plates, glasses, utensils), tablecloths, centerpieces, and other decor elements commonly found in dining settings.</description>
+		<priority>19</priority>
+		<icon>UI/Categories/Props_Bedroom</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Hospital</defName>
+		<label>hospital</label>
+		<description>Items such as medical equipment (beds, surgical tools, monitors), signage, and other items commonly found in healthcare environments.</description>
+		<priority>20</priority>
+		<icon>UI/Categories/Props_Hospital</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Military</defName>
+		<label>military</label>
+		<description>Items like replica weapons, uniforms, helmets, insignia, and other military-related paraphernalia designed for visual and thematic accuracy.</description>
+		<priority>21</priority>
+		<icon>UI/Categories/Props_Military</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Prison</defName>
+		<label>prison</label>
+		<description>Prison bars, cells, inmate uniforms, guards' uniforms, surveillance cameras, signage, and other elements associated with correctional facilities.</description>
+		<priority>22</priority>
+		<icon>UI/Categories/Props_Prison</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Royal</defName>
+		<label>royal</label>
+		<description>Crowns, scepters, thrones, royal attire, coats of arms, ceremonial swords, and other regal symbols.</description>
+		<priority>23</priority>
+		<icon>UI/Categories/Props_Royal</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Storage</defName>
+		<label>storage</label>
+		<description>Props such as shelves, containers, crates, storage bins, and labels, as well as tools or equipment associated with organizing and managing stored items.</description>
+		<priority>24</priority>
+		<icon>UI/Categories/Props_Storage</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Temple</defName>
+		<label>temple</label>
+		<description>Religious artifacts, ceremonial objects, statues, altars, ritualistic tools, and other elements representing the spiritual or cultural significance of a temple.</description>
+		<priority>25</priority>
+		<icon>UI/Categories/Props_Temple</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Recreation</defName>
+		<label>recreation</label>
+		<description>Sports equipment, games, picnic supplies, outdoor furniture, and other elements associated with leisure and entertainment.</description>
+		<priority>26</priority>
+		<icon>UI/Categories/Props_Recreation</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Children</defName>
+		<label>children</label>
+		<description>Children props, such as toys, children furniture, etc.</description>
+		<priority>24</priority>
+		<icon>UI/Categories/Props_Children</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Plants</defName>
+		<label>plants</label>
+		<description>Base game plants as props. Bear in mind these are decorative. They don't grow, don't produce anything, etc.</description>
+		<priority>100</priority>
+		<icon>UI/Categories/Props_Plants</icon>
 	</VFEProps.PropCategoryDef>
 	<VFEProps.PropCategoryDef>
 		<defName>VFE_PropCategory_Effecters</defName>
 		<label>effects</label>
 		<description>Invisible props that release particles from effecters. Bear in mind these will be laggy, so use in moderation.</description>
-		<priority>19</priority>
+		<priority>300</priority>
 		<icon>UI/Categories/Props_Effects</icon>
+	</VFEProps.PropCategoryDef>
+	<VFEProps.PropCategoryDef>
+		<defName>VFE_PropCategory_Misc</defName>
+		<label>misc</label>
+		<description>Miscellaneous props that don't fit any other category.</description>
+		<priority>500</priority>
+		<icon>UI/Categories/Props_Misc</icon>
 	</VFEProps.PropCategoryDef>
 	
 
