@@ -26,6 +26,62 @@
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowLeft</defName>
+		<label>large arrow left symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowLeft</texPath>
+		<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowRight</defName>
+		<label>large arrow right symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowRight</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowBoth</defName>
+		<label>large arrow left and right symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowBoth</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowDouble</defName>
+		<label>large arrow double symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowDouble</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowLeftStraight</defName>
+		<label>large arrow left and straight symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowLeftStraight</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowRightStraight</defName>
+		<label>large arrow right and straight symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowRightStraight</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalArrowThreeWays</defName>
+		<label>large arrow three ways symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowThreeWays</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
 		<defName>VFEPD_LargeDecalLineDouble</defName>
 		<label>large decal line double</label>
 		<graphicData>
@@ -829,4 +885,140 @@
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalWordSmallDanger</defName>
+		<label>large danger decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWordDanger</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalWarningGeneric</defName>
+		<label>large warning decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningGeneric</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalWarningRadiation</defName>
+		<label>large radiation decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningRadiation</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalWarningElectric</defName>
+		<label>large electricity decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningElectric</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalWarningBiohazard</defName>
+		<label>large biohazard decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningBiohazard</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,4)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinDiagonal</defName>
+		<label>large decal line thin diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinDiagonal</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinCornerInnerDiagonal</defName>
+		<label>large decal line thin inner corner diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCornerInnerDiagonal</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinCornerOuterDiagonal</defName>
+		<label>large decal line thin outer corner diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCornerOuterDiagonal</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalFakeStairs</defName>
+		<label>large fake stairs</label>
+		
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalFakeStairs</texPath>
+			<drawSize>(2,2)</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,45)</color>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalFakeStairsCorner</defName>
+		<label>large fake stairs corner</label>
+		
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalFakeStairsCorner</texPath>
+			<drawSize>(2,2)</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,45)</color>
+		</graphicData>
+		
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinCentered</defName>
+		<label>large decal line thin centered</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenter</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinCenteredCorner</defName>
+		<label>large decal line thin centered corner</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenterCorner</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinCenteredDiagonal</defName>
+		<label>large decal line thin centered diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenterDiagonal</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_LargeDecalLineThinCenteredRound</defName>
+		<label>large decal line thin centered round</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenterRound</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	
+	
 </Defs>

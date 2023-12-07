@@ -517,9 +517,9 @@
 		<prop>VFEPD_GauranlenLeavesBatchEffect</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>VFE_Prop_Plants_44</defName>
-		<category>VFE_PropCategory_Plants</category>		
-		<priority>44</priority>
+		<defName>VFE_Prop_Misc_1</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>1</priority>
 		<prop>VFEPD_ChristmasTree</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>

@@ -26,6 +26,55 @@
 
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowLeft</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.1</priority>
+		<prop>VFEPD_LargeDecalArrowLeft</prop>
+		<shortLabel>lrg. arrow left</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowRight</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.2</priority>
+		<prop>VFEPD_LargeDecalArrowRight</prop>
+		<shortLabel>lrg. arrow right</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowBoth</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.3</priority>
+		<prop>VFEPD_LargeDecalArrowBoth</prop>
+		<shortLabel>lrg. arrow both</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowDouble</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.4</priority>
+		<prop>VFEPD_LargeDecalArrowDouble</prop>
+		<shortLabel>lrg. arrow double</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowLeftStraight</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.5</priority>
+		<prop>VFEPD_LargeDecalArrowLeftStraight</prop>
+		<shortLabel>lrg. arrow left / str.</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowRightStraight</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.6</priority>
+		<prop>VFEPD_LargeDecalArrowRightStraight</prop>
+		<shortLabel>lrg. arrow right / str.</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_DecalArrowThreeWays</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>3.7</priority>
+		<prop>VFEPD_LargeDecalArrowThreeWays</prop>
+		<shortLabel>lrg. arrow three ways</shortLabel>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_4</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>4</priority>
@@ -67,6 +116,13 @@
 		<prop>VFEPD_LargeDecalLineThin</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_7Diagonal</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>7.5</priority>
+		<shortLabel>lrg. diagonal</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinDiagonal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_8</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>8</priority>
@@ -81,6 +137,13 @@
 		<prop>VFEPD_LargeDecalLineThinCornerInnerRound</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_8Diagonal</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>8.75</priority>
+		<shortLabel>lrg. thin inner diagonal</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCornerInnerDiagonal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
 		<defName>VFE_Prop_LargeDecals_9</defName>
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>9</priority>
@@ -93,6 +156,55 @@
 		<priority>9.5</priority>
 		<shortLabel>lrg. thin outer round</shortLabel>
 		<prop>VFEPD_LargeDecalLineThinCornerOuterRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_9Diagonal</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.75</priority>
+		<shortLabel>lrg. thin outer diagonal</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCornerOuterDiagonal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_ThinCentered</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.76</priority>
+		<shortLabel>lrg. thin centered</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCentered</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_ThinCenteredCorner</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.77</priority>
+		<shortLabel>lrg. thin centered corner</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCenteredCorner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_ThinCenteredDiagonal</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.78</priority>
+		<shortLabel>lrg. thin centered diagonal</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCenteredDiagonal</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_ThinCenteredRound</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.79</priority>
+		<shortLabel>lrg. thin centered round</shortLabel>
+		<prop>VFEPD_LargeDecalLineThinCenteredRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_FakeStairs</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.85</priority>
+		<shortLabel>lrg. fake stairs</shortLabel>
+		<prop>VFEPD_LargeDecalFakeStairs</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_FakeStairsCorner</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>9.95</priority>
+		<shortLabel>lrg. fake stairs corner</shortLabel>
+		<prop>VFEPD_LargeDecalFakeStairsCorner</prop>
 	</VFEProps.PropDef>
 	
 	<!-- Letters decals -->
@@ -650,6 +762,37 @@
 		<category>VFE_PropCategory_LargeDecals</category>
 		<priority>94</priority>
 		<prop>VFEPD_LargeDecalWordSmallZone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_95</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>95</priority>
+		<prop>VFEPD_LargeDecalWordSmallDanger</prop>
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_96</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>96</priority>
+		<prop>VFEPD_LargeDecalWarningGeneric</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_97</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>97</priority>
+		<prop>VFEPD_LargeDecalWarningRadiation</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_98</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>98</priority>
+		<prop>VFEPD_LargeDecalWarningElectric</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_99</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>99</priority>
+		<prop>VFEPD_LargeDecalWarningBiohazard</prop>
 	</VFEProps.PropDef>
 	
 

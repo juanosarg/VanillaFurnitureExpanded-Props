@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalArrowLong</defName>
 		<label>arrow long symbol</label>
@@ -8,7 +7,6 @@
 			<texPath>Things/Building/Decals/DecalArrowLong</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalArrowShort</defName>
@@ -17,7 +15,6 @@
 			<texPath>Things/Building/Decals/DecalArrowShort</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalArrowWide</defName>
@@ -26,8 +23,64 @@
 			<texPath>Things/Building/Decals/DecalArrowWide</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowLeft</defName>
+		<label>arrow left symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowLeft</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowRight</defName>
+		<label>arrow right symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowRight</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowBoth</defName>
+		<label>arrow left and right symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowBoth</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowDouble</defName>
+		<label>arrow double symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowDouble</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowLeftStraight</defName>
+		<label>arrow left and straight symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowLeftStraight</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowRightStraight</defName>
+		<label>arrow right and straight symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowRightStraight</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalArrowThreeWays</defName>
+		<label>arrow three ways symbol</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalArrowThreeWays</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineDouble</defName>
 		<label>decal line double</label>
@@ -35,7 +88,6 @@
 			<texPath>Things/Building/Decals/DecalLineDouble</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineDoubleCornerInner</defName>
@@ -44,7 +96,6 @@
 			<texPath>Things/Building/Decals/DecalLineDoubleCornerInner</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineDoubleCornerInnerRound</defName>
@@ -53,7 +104,6 @@
 			<texPath>Things/Building/Decals/DecalLineDoubleCornerInnerRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineDoubleCornerOuter</defName>
@@ -62,7 +112,6 @@
 			<texPath>Things/Building/Decals/DecalLineDoubleCornerOuter</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineDoubleCornerOuterRound</defName>
@@ -71,7 +120,6 @@
 			<texPath>Things/Building/Decals/DecalLineDoubleCornerOuterRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineThin</defName>
@@ -80,7 +128,6 @@
 			<texPath>Things/Building/Decals/DecalLineThin</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineThinCornerInner</defName>
@@ -89,7 +136,6 @@
 			<texPath>Things/Building/Decals/DecalLineThinCornerInner</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineThinCornerInnerRound</defName>
@@ -98,7 +144,6 @@
 			<texPath>Things/Building/Decals/DecalLineThinCornerInnerRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineThinCornerOuter</defName>
@@ -107,7 +152,6 @@
 			<texPath>Things/Building/Decals/DecalLineThinCornerOuter</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalLineThinCornerOuterRound</defName>
@@ -116,7 +160,6 @@
 			<texPath>Things/Building/Decals/DecalLineThinCornerOuterRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolA</defName>
@@ -125,7 +168,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolA</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolB</defName>
@@ -134,7 +176,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolB</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolC</defName>
@@ -143,7 +184,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolC</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolD</defName>
@@ -152,7 +192,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolD</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolE</defName>
@@ -161,7 +200,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolE</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolF</defName>
@@ -170,7 +208,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolF</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolG</defName>
@@ -179,7 +216,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolG</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolH</defName>
@@ -188,7 +224,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolH</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolI</defName>
@@ -197,7 +232,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolI</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolJ</defName>
@@ -206,7 +240,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolJ</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolK</defName>
@@ -215,7 +248,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolK</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolL</defName>
@@ -224,7 +256,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolL</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolM</defName>
@@ -233,7 +264,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolM</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolN</defName>
@@ -242,7 +272,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolN</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolO</defName>
@@ -251,7 +280,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolO</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolP</defName>
@@ -260,7 +288,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolP</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolQ</defName>
@@ -269,7 +296,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolQ</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolV</defName>
@@ -278,7 +304,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolV</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolR</defName>
@@ -287,7 +312,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolR</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolS</defName>
@@ -296,7 +320,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolS</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolT</defName>
@@ -305,7 +328,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolT</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolU</defName>
@@ -314,7 +336,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolU</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolW</defName>
@@ -323,7 +344,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolW</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolX</defName>
@@ -332,7 +352,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolX</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolY</defName>
@@ -341,7 +360,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolY</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolZ</defName>
@@ -350,7 +368,6 @@
 			<texPath>Things/Building/Decals/DecalSymbolZ</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolOne</defName>
@@ -359,7 +376,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol1</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolTwo</defName>
@@ -368,7 +384,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol2</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolThree</defName>
@@ -377,7 +392,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol3</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolFour</defName>
@@ -386,7 +400,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol4</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolFive</defName>
@@ -395,7 +408,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol5</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolSix</defName>
@@ -404,7 +416,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol6</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolSeven</defName>
@@ -413,7 +424,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol7</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolEight</defName>
@@ -422,7 +432,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol8</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolNine</defName>
@@ -431,7 +440,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol9</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalSymbolZero</defName>
@@ -440,7 +448,6 @@
 			<texPath>Things/Building/Decals/DecalSymbol0</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordArmory</defName>
@@ -450,7 +457,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordBarracks</defName>
@@ -460,7 +466,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordBlock</defName>
@@ -470,7 +475,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordCafeteria</defName>
@@ -480,7 +484,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordCargo</defName>
@@ -490,7 +493,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordChamber</defName>
@@ -500,7 +502,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordClimate</defName>
@@ -510,7 +511,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordCommand</defName>
@@ -520,7 +520,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordControl</defName>
@@ -530,7 +529,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordEngineer</defName>
@@ -540,7 +538,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordFarming</defName>
@@ -550,7 +547,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordFreezer</defName>
@@ -560,7 +556,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordFridge</defName>
@@ -570,7 +565,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordHangar</defName>
@@ -580,7 +574,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordHospital</defName>
@@ -590,7 +583,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordKill</defName>
@@ -600,7 +592,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordKitchen</defName>
@@ -610,7 +601,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordLanding</defName>
@@ -620,7 +610,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordMedical</defName>
@@ -630,7 +619,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordMess</defName>
@@ -640,7 +628,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordMorgue</defName>
@@ -650,7 +637,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordMortar</defName>
@@ -660,7 +646,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordPlay</defName>
@@ -670,7 +655,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordPrison</defName>
@@ -680,7 +664,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordReactor</defName>
@@ -690,7 +673,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordRecreation</defName>
@@ -700,7 +682,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordRefinery</defName>
@@ -710,7 +691,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordRelax</defName>
@@ -720,7 +700,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordResearch</defName>
@@ -730,7 +709,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSecurity</defName>
@@ -740,7 +718,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordShipping</defName>
@@ -750,7 +727,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSleeping</defName>
@@ -760,7 +736,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmelting</defName>
@@ -770,7 +745,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordStorage</defName>
@@ -780,7 +754,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordWarning</defName>
@@ -790,7 +763,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordWorkshop</defName>
@@ -800,7 +772,6 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallBase</defName>
@@ -809,7 +780,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallBase</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallBay</defName>
@@ -818,7 +788,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallBay</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallBox</defName>
@@ -827,7 +796,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallBox</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallCell</defName>
@@ -836,7 +804,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallCell</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallClear</defName>
@@ -845,7 +812,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallClear</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallDock</defName>
@@ -854,7 +820,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallDock</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallGas</defName>
@@ -863,7 +828,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallGas</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallHall</defName>
@@ -872,7 +836,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallHall</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallKeep</defName>
@@ -881,7 +844,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallKeep</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallLab</defName>
@@ -890,7 +852,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallLab</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallPad</defName>
@@ -899,7 +860,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallPad</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallRoom</defName>
@@ -908,7 +868,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallRoom</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallWing</defName>
@@ -917,7 +876,6 @@
 			<texPath>Things/Building/Decals/DecalWordSmallWing</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
 	</ThingDef>
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalWordSmallZone</defName>
@@ -926,6 +884,130 @@
 			<texPath>Things/Building/Decals/DecalWordSmallZone</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
-		
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWordDanger</defName>
+		<label>danger decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWordDanger</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningGeneric</defName>
+		<label>warning decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningGeneric</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningRadiation</defName>
+		<label>radiation decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningRadiation</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningElectric</defName>
+		<label>electricity decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningElectric</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningBiohazard</defName>
+		<label>biohazard decal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningBiohazard</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinDiagonal</defName>
+		<label>decal line thin diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinDiagonal</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCornerInnerDiagonal</defName>
+		<label>decal line thin inner corner diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCornerInnerDiagonal</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCornerOuterDiagonal</defName>
+		<label>decal line thin outer corner diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCornerOuterDiagonal</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalFakeStairs</defName>
+		<label>fake stairs</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalFakeStairs</texPath>
+			<drawSize>(1,1)</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,45)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalFakeStairsCorner</defName>
+		<label>fake stairs corner</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalFakeStairsCorner</texPath>
+			<drawSize>(1,1)</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<color>(255,255,255,45)</color>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCentered</defName>
+		<label>decal line thin centered</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenter</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCenteredCorner</defName>
+		<label>decal line thin centered corner</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenterCorner</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCenteredDiagonal</defName>
+		<label>decal line thin centered diagonal</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenterDiagonal</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalLineThinCenteredRound</defName>
+		<label>decal line thin centered round</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalLineThinCenterRound</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
 	</ThingDef>
 </Defs>
