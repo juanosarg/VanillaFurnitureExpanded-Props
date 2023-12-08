@@ -239,7 +239,7 @@
 		<label>small planning table</label>
 		<description>A small sized planning screen mounted on a tiny table.</description>
 		<graphicData>
-			<texPath>Things/Building/SpacerProps/PlanningTable</texPath>
+			<texPath>Things/Building/SpacerProps/SmallPlanningTable</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
