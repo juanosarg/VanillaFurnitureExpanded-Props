@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BangBus</defName>
+		<label>Bang Bus</label>
+		<description>A basic passenger transport, the Bangbus is a relatively cheap piece of machinery to construct to transport people across roads of flat terrain. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier1/Tier1_Van/Tier1_Van</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<color>(160, 160, 160)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Bunsen</defName>
+		<label>Bunsen</label>
+		<description>A basic light tank, the Bunsen is a modified armoured vehicle suited for taking on enemy fortifications and exposed infantry. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier1/Tier1_FlamerTank/Tier1_FlamerTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+            <li Class="VFEProps.DrawTurretExtension">
+                <turretToDraw>Things/Vehicles/Tier1/Tier1_FlamerTank/Tier1_FlamerTank_CannonTop</turretToDraw>
+				<drawSize>(3,3)</drawSize>
+				<offset>(0, 0.4)</offset>
+            </li>
+        </modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Dinghy</defName>
+		<label>Dinghy</label>
+		<description>A very basic motorised boat, the Dingy is an incredibly cheap and discrete method of transportation over water. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier1/Tier1_Boat/Tier1_Boat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+			<color>(243, 246, 219)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Dirtbike</defName>
+		<label>Dirtbike</label>
+		<description>A basic off-road motorcycle, the Dirtbike is a very cheap vehicle that allows a single user to travel quickly, efficiently and quietly. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier1/Tier1_Motorbike/Tier1_Motorbike</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(150, 10, 0)</color>
+			<shaderType>CutoutComplex</shaderType>
+			
+		</graphicData>
+		
+		<altitudeLayer>Building</altitudeLayer>
+
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Frog</defName>
+		<label>Frog</label>
+		<description>A basic reusable transport pod, the Frog is a relatively cheap vehicle that is the first option when it comes to flying without crashing into the ground. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier1/Tier1_Droppod/Tier1_Droppod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<color>(138, 100, 15)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Highwayman</defName>
+		<label>Highwayman</label>
+		<description>A basic infantry fighting vehicle, the Highwayman is the cheapest weaponized option for transporting three people. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier1/Tier1_APC/Tier1_APC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 5)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+            <li Class="VFEProps.DrawTurretExtension">
+                <turretToDraw>Things/Vehicles/Tier1/Tier1_APC/Tier1_APC_CannonTop</turretToDraw>
+				<drawSize>(4,4)</drawSize>
+				<offset>(0, 0.5)</offset>
+            </li>
+        </modExtensions>
+	</ThingDef>
+</Defs>
