@@ -178,4 +178,86 @@
 		<priority>58</priority>
 		<prop>VFEPD_RatPalm</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_7</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>7</priority>
+		<prop>VFEPD_MechanitorShip</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Mech_Antenna</defName>
+		<category>VFE_PropCategory_Mechs</category>		
+		<priority>20</priority>
+		<prop>VFEPD_MechbandAntenna</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Mech_Dish</defName>
+		<category>VFE_PropCategory_Mechs</category>		
+		<priority>21</priority>
+		<prop>VFEPD_MechbandDish</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_7</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>7</priority>
+		<prop>VFEPD_CocoonMegaspider</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_8</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>8</priority>
+		<prop>VFEPD_CocoonMegascarab</prop>
+		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Misc_9</defName>
+		<category>VFE_PropCategory_Misc</category>		
+		<priority>9</priority>
+		<prop>VFEPD_CocoonSpelopede</prop>
+		
+	</VFEProps.PropDef>
+	
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_300</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>300</priority>
+		<prop>VFEPD_AncientExostriderRemains</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_301</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>301</priority>
+		<prop>VFEPD_AncientExostriderHead</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_302</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>302</priority>
+		<prop>VFEPD_AncientExostriderLeg</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Ancient_303</defName>
+		<category>VFE_PropCategory_Ancient</category>
+		<priority>303</priority>
+		<prop>VFEPD_AncientExostriderCannon</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_50</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>50</priority>
+		<prop>VFEPD_FilthAcid</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_51</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>51</priority>
+		<prop>VFEPD_FlammableBile</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_52</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>52</priority>
+		<prop>VFEPD_Floordrawing</prop>
+	</VFEProps.PropDef>
 </Defs>

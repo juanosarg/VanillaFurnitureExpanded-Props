@@ -591,4 +591,40 @@
 		<prop>VFEPD_FalseBlueFire</prop>
 		
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spaceships_6</defName>
+		<category>VFE_PropCategory_Spaceships</category>		
+		<priority>6</priority>
+		<prop>VFEPD_SpaceDrone</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_30</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>30</priority>
+		<prop>VFEPD_DriedBlood</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_31</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>31</priority>
+		<prop>VFEPD_ScatteredDocuments</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_32</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>32</priority>
+		<prop>VFEPD_MoldyUniform</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_33</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>33</priority>
+		<prop>VFEPD_PodSlime</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_FilthPropBase">
+		<defName>VFE_Prop_Filth_34</defName>
+		<category>VFE_PropCategory_Filth</category>
+		<priority>34</priority>
+		<prop>VFEPD_OilSmear</prop>
+	</VFEProps.PropDef>
 </Defs>

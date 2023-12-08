@@ -293,6 +293,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building\Building_FakeSteamGeyser.cs" />
     <Compile Include="Building\Building_SubstractsSilver.cs" />
     <Compile Include="Comps\CompAttachEffecter.cs" />
     <Compile Include="Comps\CompConstantFireOverlay.cs" />

@@ -43,9 +43,42 @@
 		<graphicData>
 			<texPath>Things/Building/Misc/Shuttle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(5,3)</drawSize>
+			<drawSize>(6,3)</drawSize>
+			<color>(162,164,149)</color>
 			<shadowData>
-				<volume>(0.55, 0.30, 0.40)</volume>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(5,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_ShuttleCrashed</defName>
+		<label>crashed shuttle</label>
+		<description>A VERY out-of-service imperial shuttle.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/CrashedShuttle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<color>(162,164,149)</color>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
 			</shadowData>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -92,7 +125,6 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>0.1</Mass>
 			<Flammability>1.5</Flammability>
-			
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
@@ -123,12 +155,42 @@
 			<WorkToBuild>0</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1</Flammability>
-			
 		</statBases>
 		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
 		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_ShipLandingBeacon</defName>
+		<label>landing beacon</label>
+		<description>Marks the corner of a landing area. Shuttles will ignore this one as it is inactive.</description>
+		<graphicData>
+      <texPath>Things/Building/Misc/ShipLandingBeacon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.2, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.15</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>14</pathCost>
 	</ThingDef>
 </Defs>

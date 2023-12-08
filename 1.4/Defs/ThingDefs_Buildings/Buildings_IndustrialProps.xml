@@ -277,7 +277,6 @@
 			<texPath>Things/Building/IndustrialProps/Pallet/Pallet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
-			
 		</graphicData>
 		<rotatable>False</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
@@ -290,9 +289,7 @@
 			<Flammability>0.7</Flammability>
 		</statBases>
 		<size>(2,2)</size>
-		
 		<uiIconScale>1</uiIconScale>
-		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -322,7 +319,6 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,2)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<castEdgeShadows>True</castEdgeShadows>
 		<building>
@@ -357,7 +353,6 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,4)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -387,7 +382,6 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,3)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -419,7 +413,6 @@
 			<Flammability>1</Flammability>
 		</statBases>
 		<size>(2,3)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -450,7 +443,6 @@
 			<Flammability>0.7</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -480,7 +472,6 @@
 			<Flammability>0.3</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -511,7 +502,6 @@
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -544,7 +534,6 @@
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -574,7 +563,6 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-	
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
@@ -605,13 +593,11 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_GasTank</defName>
 		<label>gas tank</label>
@@ -635,11 +621,55 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,2)</size>
-		
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>
 		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VCHE_FakePipes</defName>
+		<label>fake pipe</label>
+		<description>Steel pipes. These do not transport anything.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/FakePipes/FakePipes_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom7</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<uiIconPath>Things/Building/ModCompat/FakePipes/FakePipes_MenuIcon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/Building/ModCompat/FakePipes/FakePipes_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
 	<ThingDef ParentName="BuildingBase">
@@ -782,8 +812,6 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>VFEPD_PalletBarrelGrey</defName>
 		<label>pallet with grey barrels</label>
@@ -932,7 +960,6 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>VFEPD_ContainerGrey</defName>
 		<label>grey cargo container</label>
@@ -1077,11 +1104,4 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
-	
-	
-	
-	
-	
-	
 </Defs>

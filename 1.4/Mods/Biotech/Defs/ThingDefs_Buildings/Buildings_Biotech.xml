@@ -146,6 +146,106 @@
 		<pathCost>50</pathCost>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientExostriderRemains</defName>
+		<label>exostrider remains</label>
+		<description>The remains of a massive, ancient exostrider war mechanoid.</description>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderMidsection</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(1.9, 1, 1.9)</volume>
+				<offset>(-0.2,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientExostriderHead</defName>
+		<label>exostrider head</label>
+		<description>The remains of the head of a massive, ancient exostrider mechanoid.</description>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderHead</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.1, 1, 1.1)</volume>
+				<offset>(-0.2,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientExostriderLeg</defName>
+		<label>exostrider leg</label>
+		<description>The remains of the leg of a massive, ancient exostrider mechanoid.</description>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>true</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderLeg</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 0.4)</volume>
+				<offset>(-0.2,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(2,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AncientExostriderCannon</defName>
+		<label>exostrider cannon</label>
+		<description>The remains of the back-mounted energy cannon of a massive, ancient exostrider mechanoid.</description>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Ruins/AncientExostrider/AncientExostriderCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(1.9, 1, 0.9)</volume>
+				<offset>(-0.2,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_MechRepairingEffect</defName>
 		<label>mech repairing</label>
 		<description>This is an effecter prop for "Mech Repairing". Intrinsically laggy, use in moderation.</description>
@@ -922,5 +1022,263 @@
 		<building>
 			<isInert>true</isInert>
 		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_MechanitorShip</defName>
+		<label>mechanitor ship</label>
+		<description>A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. Deactivated.</description>
+		<size>(5,3)</size>
+		<graphicData>
+			<texPath>Things/Building/Misc/MechanitorShipCrashed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<shadowData>
+				<volume>(4.1, 1.0, 1.8)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>100</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MechbandAntenna</defName>
+		<label>mechband antenna</label>
+		<description>A mech-band signaling device. Deactivated.</description>
+		<size>(2,1)</size>
+		<graphicData>
+			<texPath>Things/Building/Misc/MechbandAntenna</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<shadowData>
+				<volume>(1.7, 0.75, 0.8)</volume>
+				<offset>(0.15, 0, 0)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_MechbandDish</defName>
+		<label>mechband dish</label>
+		<description>A mech-band signaling device more powerful than the normal mechlink antenna. Deactivated.</description>
+		<size>(2,2)</size>
+		<graphicData>
+			<texPath>Things/Building/Misc/MechbandDish</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.1, 0.75, 1.1</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CocoonMegaspider</defName>
+		<label>megaspider cocoon</label>
+		<description>Not a real insect cocoon.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/Natural/CocoonMegaspider</texPath>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CocoonMegascarab</defName>
+		<label>megascarab cocoon</label>
+		<description>Not a real insect cocoon.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/Natural/CocoonMegascarab</texPath>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_CocoonSpelopede</defName>
+		<label>spelopede cocoon</label>
+		<description>Not a real insect cocoon.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/Natural/CocoonSpelopede</texPath>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<pathCost>42</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FilthAcid</defName>
+		<label>acid</label>
+		<description>Spent acid.</description>
+		<graphicData>
+			<texPath>Things/Filth/Acid</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>2.5</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FlammableBile</defName>
+		<label>flammable bile</label>
+		<description>Flammable bile. You know, a classic.</description>
+		<graphicData>
+			<texPath>Things/Filth/FlammableBile</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_Floordrawing</defName>
+		<label>floor drawing</label>
+		<description>Floor drawings. There is no better incentive to go child free in life.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Filth/Floordrawing</texPath>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Filth</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
 </Defs>

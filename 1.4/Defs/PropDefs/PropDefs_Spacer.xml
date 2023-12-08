@@ -26,6 +26,12 @@
 		<prop>VFEPD_DisplayTable</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_4Small</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>4.5</priority>
+		<prop>VFEPD_SmallDisplayTable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Spacer_5</defName>
 		<category>VFE_PropCategory_Spacer</category>
 		<priority>5</priority>
@@ -45,11 +51,24 @@
 		<prop>VFEPD_PlanningTable</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_7Alternate</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>7.5</priority>
+		<prop>VFEPD_SmallPlanningTable</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>VFE_Prop_Spacer_8</defName>
 		<category>VFE_PropCategory_Spacer</category>
 		<priority>8</priority>
 		<shortLabel>triple display</shortLabel>
 		<prop>VFEPD_TripleDisplay</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_8Single</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>8.5</priority>
+		<shortLabel>single display</shortLabel>
+		<prop>VFEPD_SingleDisplay</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Spacer_9</defName>
@@ -89,6 +108,18 @@
 		<category>VFE_PropCategory_Spacer</category>
 		<priority>14</priority>
 		<prop>VFEPD_ServerRack</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_14Alternate</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>14.1</priority>
+		<prop>VFEPD_ServerRackAlternate</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Spacer_14AlternateTwo</defName>
+		<category>VFE_PropCategory_Spacer</category>
+		<priority>14.2</priority>
+		<prop>VFEPD_ServerRackAlternateTwo</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>VFE_Prop_Spacer_15</defName>
