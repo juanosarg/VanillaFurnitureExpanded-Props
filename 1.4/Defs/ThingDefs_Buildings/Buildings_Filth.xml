@@ -18,6 +18,7 @@
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
 			<isEdifice>false</isEdifice>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isInert>true</isInert>
 		</building>
 		<castEdgeShadows>false</castEdgeShadows>
@@ -52,6 +53,7 @@
 		<building>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0</fillPercent>
@@ -85,6 +87,7 @@
 		<building>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0</fillPercent>
@@ -116,6 +119,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -148,6 +152,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -180,6 +185,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -212,6 +218,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -245,6 +252,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -278,6 +286,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -310,6 +319,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -343,6 +353,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -376,6 +387,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -409,6 +421,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -442,6 +455,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -474,6 +488,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -506,6 +521,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -539,6 +555,7 @@
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
 		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>

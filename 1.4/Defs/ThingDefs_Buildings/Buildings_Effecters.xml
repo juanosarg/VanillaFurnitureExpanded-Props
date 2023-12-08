@@ -16,7 +16,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Clean</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -54,7 +54,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Paint</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -92,7 +92,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/SparkFlash</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -131,7 +131,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/DustPuff</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -170,7 +170,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/DustPuff</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -209,7 +209,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/DustPuff</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -248,7 +248,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/DustPuff</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -287,7 +287,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/FoodBitMeat</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -326,7 +326,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/FoodBitVegetarian</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -365,7 +365,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/SparkFlash</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -404,7 +404,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/ResearchPage</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -443,7 +443,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/ClearSnow</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -482,7 +482,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/WoodBit</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -521,7 +521,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Sow</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -560,7 +560,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/VomitBit</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -599,7 +599,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Cards</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -638,7 +638,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/BlastEMP</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -677,7 +677,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/FoodBitMeat</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -716,7 +716,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/StoneBit</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -755,7 +755,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/YellowSparkFlash</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -794,7 +794,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Smoke</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -833,7 +833,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Flash</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -872,7 +872,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/Flash</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -911,7 +911,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/StoneBit</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -950,7 +950,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshOnly</drawerType>
 		<uiIconPath>Things/Mote/CookBit</uiIconPath>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -989,7 +989,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.20</fillPercent>
 		<clearBuildingArea>false</clearBuildingArea>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
@@ -1024,7 +1024,7 @@
 		<tickerType>Normal</tickerType>
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.20</fillPercent>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>

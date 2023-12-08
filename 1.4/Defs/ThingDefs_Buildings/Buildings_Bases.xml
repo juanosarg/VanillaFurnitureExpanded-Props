@@ -35,6 +35,7 @@
 			<isEdifice>false</isEdifice>
 			<paintable>true</paintable>
 			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0</fillPercent>

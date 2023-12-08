@@ -15,7 +15,7 @@
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<drawerType>MapMeshOnly</drawerType>
-		<building>
+		<building><artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
