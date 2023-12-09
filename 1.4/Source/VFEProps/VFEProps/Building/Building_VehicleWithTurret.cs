@@ -45,7 +45,7 @@ namespace VFEProps
         {
             try
             {
-                graphic = (Graphic_Single)GraphicDatabase.Get<Graphic_Single>(GetExtension.turretToDraw, ShaderDatabase.CutoutComplex, GetExtension.drawSize, this.def.graphicData.color);
+                graphic = (Graphic_Single)GraphicDatabase.Get<Graphic_Single>(GetExtension.turretToDraw, ShaderDatabase.CutoutComplex, GetExtension.drawSize, DrawColor);
             }
             catch (Exception) {  }
         }
@@ -55,10 +55,37 @@ namespace VFEProps
             base.Draw();
             var vector = this.DrawPos + Altitudes.AltIncVect;
             vector.y += 5;
-            vector.x += GetExtension.offset.x;
-            vector.z += GetExtension.offset.y;
+
+            switch (this.Rotation.AsInt)
+            {
+                case 0: //north
+                    vector.x += GetExtension.offset.north.x;
+                    vector.z += GetExtension.offset.north.y;
+                    break;
+                case 1: //east
+                    vector.x += GetExtension.offset.east.x;
+                    vector.z += GetExtension.offset.east.y;
+                    break;
+                case 2: //south
+                    vector.x += GetExtension.offset.south.x;
+                    vector.z += GetExtension.offset.south.y;
+                    break;
+                case 3: //west
+                    vector.x += GetExtension.offset.west.x;
+                    vector.z += GetExtension.offset.west.y;
+                    break;
+            }
+       
             GetGraphic?.DrawFromDef(vector, this.Rotation, null);
 
+        }
+
+        public override void Notify_ColorChanged()
+        {
+            base.Notify_ColorChanged();
+            graphic = null;
+            Map.mapDrawer.MapMeshDirty(Position, MapMeshFlag.Things);
+            Draw();
         }
 
 

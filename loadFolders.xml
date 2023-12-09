@@ -21,6 +21,8 @@
 		<li IfModActive="VanillaExpanded.VAECaves">1.4/Mods/VanillaAnimalsExpandedCaves</li>
 		<li IfModActive="VanillaExpanded.VCookE">1.4/Mods/VanillaCookingExpanded</li>
 		<li IfModActive="OskarPotocki.VanillaVehiclesExpanded">1.4/Mods/VanillaVehiclesExpanded</li>
+		<li IfModActive="sarg.alphavehiclesneolithic">1.4/Mods/AlphaVehiclesNeolithic</li>
+		
 	</v1.4>
 </loadFolders>
 

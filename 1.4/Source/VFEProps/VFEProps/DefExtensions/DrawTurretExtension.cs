@@ -10,7 +10,7 @@ namespace VFEProps
 
         public string turretToDraw;
         public Vector2 drawSize;
-        public Vector2 offset;
+        public TurretRotationDef offset;
     }
 
 }

@@ -301,6 +301,7 @@
     <Compile Include="Defs\HiddenDesignatorsDef.cs" />
     <Compile Include="Defs\PropCategoryDef.cs" />
     <Compile Include="Defs\PropDef.cs" />
+    <Compile Include="Defs\TurretRotationDef.cs" />
     <Compile Include="Designators\Designator_Props.cs" />
     <Compile Include="Harmony\Designator_Build_DrawPlaceMouseAttachments.cs" />
     <Compile Include="Harmony\GenLeaving_GetBuildingResourcesLeaveCalculator.cs" />
