@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Badger</defName>
+		<label>Badger</label>
+		<description>A tracked, armoured fighting vehicle, the Badger is designed to transport scouts and infantry while providing covering fire to suppress enemy troops. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_IFV/Tier3_IFV</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 6)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 5)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_IFV/Tier3_IFV_CannonTop</turretToDraw>
+				<drawSize>(4,4)</drawSize>
+				<offset>
+					<north>(0, 0.12)</north>
+							<south>(0, 0.72)</south>
+							<east>(-0.66, 0.51)</east>
+					<west>(0.66, 0.51)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_BigRig</defName>
+		<label>Big Rig</label>
+		<description>A dedicated cargo transporter, the Big Rig is the epitome of bulk material transportation. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_Truck/Tier3_Truck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 8)</drawSize>
+			<color>(124, 129, 164)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_Burya</defName>
+		<label>Burya</label>
+		<description>A dedicated multiple launch rocket system platform, the Burya is a long-range siege and area denial weapon that can be operated by a two-man crew for faster loading speeds. Non-functional: all its internal wiring and its motor have been removed.</description>
+		<thingClass>VFEProps.Building_VehicleWithTurret</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_RocketArtillery/Tier3_RocketArtillery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 8)</drawSize>
+			<color>(72, 77, 72)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.8, 0.7, 3.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<repairEffect>ConstructMetal</repairEffect>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>200</Mass>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3, 6)</size>
+		<uiIconScale>1</uiIconScale>
+		<modExtensions>
+			<li Class="VFEProps.DrawTurretExtension">
+				<turretToDraw>Things/Vehicles/Tier3/Tier3_RocketArtillery/Tier3_RocketArtillery_CannonTop</turretToDraw>
+				<drawSize>(5,5)</drawSize>
+				<offset>
+					<north>(0, -1.25)</north>
+							<south>(0, 1.9)</south>
+							<east>(-2.05, 0.4)</east>
+					<west>(2.05, 0.4)</west>
+				</offset>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	
+</Defs>

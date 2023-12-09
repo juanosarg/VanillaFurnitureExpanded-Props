@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_123</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>123</priority>
+		<prop>VFEPD_Badger</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_124</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>124</priority>
+		<prop>VFEPD_BigRig</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Vehicles_125</defName>
+		<category>VFE_PropCategory_Vehicles</category>		
+		<priority>125</priority>
+		<prop>VFEPD_Burya</prop>
+	</VFEProps.PropDef>
+	
+	
+</Defs>
