@@ -963,7 +963,7 @@
 		<defName>VFEPD_LargeDecalFakeStairs</defName>
 		<label>large fake stairs</label>
 		
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<graphicData>
 			<texPath>Things/Building/Decals/DecalFakeStairs</texPath>
 			<drawSize>(2,2)</drawSize>
@@ -977,7 +977,7 @@
 		<defName>VFEPD_LargeDecalFakeStairsCorner</defName>
 		<label>large fake stairs corner</label>
 		
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<graphicData>
 			<texPath>Things/Building/Decals/DecalFakeStairsCorner</texPath>
 			<drawSize>(2,2)</drawSize>
@@ -1018,6 +1018,48 @@
 			<texPath>Things/Building/Decals/DecalLineThinCenterRound</texPath>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_DecalHelipadSquareLarge</defName>
+		<label>large square helipad</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalHelipadSquare</texPath>
+			<drawSize>(9,9)</drawSize>
+		</graphicData>
+		<size>(9,9)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_DecalHelipadRoundLarge</defName>
+		<label>large round helipad</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalHelipadRound</texPath>
+			<drawSize>(9,9)</drawSize>
+		</graphicData>
+		<size>(9,9)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_DecalWarningStripesLarge</defName>
+		<label>large warning stripes</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningStripes</texPath>
+			<drawSize>(2.005,2.005)</drawSize>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(154,146,74)</color>
+		</graphicData>
+		<size>(2,2)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBaseLarge">
+		<defName>VFEPD_DecalWarningStripesCleanLarge</defName>
+		<label>large clean warning stripes</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningStripesClean</texPath>
+			<drawSize>(2.005,2.005)</drawSize>
+			
+			<shaderType>CutoutComplex</shaderType>
+			<color>(154,146,74)</color>
+		</graphicData>
+		<size>(2,2)</size>
 	</ThingDef>
 	
 	

@@ -1,6 +1,154 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeDoor</defName>
+		<label>fake door</label>
+		<description>A non-functional door. It's just two painted plywood panels and won't open. Can be traversed.</description>
+		<graphicData>
+			<texPath>Things/Building/Door/DoorSimple_MenuIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeAnimalDoor</defName>
+		<label>fake flap door</label>
+		<description>A non-functional flap door. It's just two painted cloth sheets. Can be traversed.</description>
+		<graphicData>
+			<texPath>Things/Building/Door/AnimalFlap_MenuIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(162,157,152)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+	
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeAutoDoor</defName>
+		<label>fake autodoor</label>
+		<description>A non-functional autodoor. It's just two painted metal sheets. Can be traversed.</description>
+		<graphicData>
+			<texPath>Things/Building/Door/Autodoor_MenuIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeFenceDoor</defName>
+		<label>fake fence door</label>
+		<description>A non-functional fence door. It's just two painted plywood panels and won't open. Can be traversed.</description>
+		<graphicData>
+			<texPath>Things/Building/Door/FenceGate_MenuIcon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeColumn</defName>
+		<label>fake column</label>
+		<description>A fake, painted plywood column that won't hold any ceiling.</description>
+		<graphicData>
+			<drawSize>(1,1.25)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+			<texPath>Things/Building/Furniture/Column</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(133,97,67)</color>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>0</pathCost>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_SteelATM</defName>
 		<label>ATM</label>
 		<description>A non-functional money dispensing machine.</description>
@@ -623,8 +771,6 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
-	
 	<!-- Unused from here on. Kept for compatibility. Remove in 1.5 -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>VFEPD_PlasteelATM</defName>
@@ -2003,5 +2149,4 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
-	
 </Defs>

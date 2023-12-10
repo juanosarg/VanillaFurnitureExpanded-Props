@@ -750,4 +750,28 @@
 		<priority>99</priority>
 		<prop>VFEPD_DecalWarningBiohazard</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_100</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>100</priority>
+		<prop>VFEPD_DecalHelipadSquare</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_101</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>101</priority>
+		<prop>VFEPD_DecalHelipadRound</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_102</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>102</priority>
+		<prop>VFEPD_DecalWarningStripes</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_Decals_103</defName>
+		<category>VFE_PropCategory_Decals</category>
+		<priority>103</priority>
+		<prop>VFEPD_DecalWarningStripesClean</prop>
+	</VFEProps.PropDef>
 </Defs>

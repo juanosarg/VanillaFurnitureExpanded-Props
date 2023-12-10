@@ -969,7 +969,7 @@
 	<ThingDef ParentName="DecalBase">
 		<defName>VFEPD_DecalFakeStairsCorner</defName>
 		<label>fake stairs corner</label>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		
 		<graphicData>
 			<texPath>Things/Building/Decals/DecalFakeStairsCorner</texPath>
 			<drawSize>(1,1)</drawSize>
@@ -1009,5 +1009,49 @@
 			<texPath>Things/Building/Decals/DecalLineThinCenterRound</texPath>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalHelipadSquare</defName>
+		<label>square helipad</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalHelipadSquare</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(6,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalHelipadRound</defName>
+		<label>round helipad</label>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalHelipadRound</texPath>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<size>(6,6)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningStripes</defName>
+		<label>warning stripes</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningStripes</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.01,1.01)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(154,146,74)</color>
+		</graphicData>
+		<size>(1,1)</size>
+	</ThingDef>
+	<ThingDef ParentName="DecalBase">
+		<defName>VFEPD_DecalWarningStripesClean</defName>
+		<label>clean warning stripes</label>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<graphicData>
+			<texPath>Things/Building/Decals/DecalWarningStripesClean</texPath>
+			
+			<drawSize>(1.01,1.01)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(154,146,74)</color>
+		</graphicData>
+		<size>(1,1)</size>
 	</ThingDef>
 </Defs>

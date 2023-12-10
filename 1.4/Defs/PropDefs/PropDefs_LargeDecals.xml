@@ -794,7 +794,30 @@
 		<priority>99</priority>
 		<prop>VFEPD_LargeDecalWarningBiohazard</prop>
 	</VFEProps.PropDef>
-	
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_100</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>100</priority>
+		<prop>VFEPD_DecalHelipadSquareLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_101</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>101</priority>
+		<prop>VFEPD_DecalHelipadRoundLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_102</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>102</priority>
+		<prop>VFEPD_DecalWarningStripesLarge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_DecalPropBase">
+		<defName>VFE_Prop_LargeDecals_103</defName>
+		<category>VFE_PropCategory_LargeDecals</category>
+		<priority>103</priority>
+		<prop>VFEPD_DecalWarningStripesCleanLarge</prop>
+	</VFEProps.PropDef>
 
 	
 </Defs>
