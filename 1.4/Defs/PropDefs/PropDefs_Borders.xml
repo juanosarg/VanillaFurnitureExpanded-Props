@@ -63,4 +63,16 @@
 		<priority>10</priority>
 		<prop>VFE_WoodenBorder_Corner</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_11</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>11</priority>
+		<prop>VFE_WarningBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_12</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>12</priority>
+		<prop>VFE_WarningBorder_Corner</prop>
+	</VFEProps.PropDef>
 </Defs>

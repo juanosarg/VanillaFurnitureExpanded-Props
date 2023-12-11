@@ -152,7 +152,20 @@
 		<prop>VFEPD_WarehouseShelfBoxes</prop>
 		<shortLabel>shelf with boxes</shortLabel>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Sarcophagus</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>50</priority>
+		<prop>VFEPD_FakeSarcophagus</prop>
 	
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Grave</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>51</priority>
+		<prop>VFEPD_FakeGrave</prop>
+
+	</VFEProps.PropDef>
 	
 	
 </Defs>

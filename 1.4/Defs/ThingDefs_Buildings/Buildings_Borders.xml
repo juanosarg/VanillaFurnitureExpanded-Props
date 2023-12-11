@@ -95,4 +95,31 @@
 			<color>(133,97,67)</color>
 		</graphicData>
 	</ThingDef>
+	<!-- Warning Border -->
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_WarningBorder_Straight</defName>
+		<label>warning border</label>
+		<description>A simple, paintable warning border.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderWarning</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<color>(154,146,74)</color>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+	</ThingDef>
+	<ThingDef ParentName="VFE_BorderBase">
+		<defName>VFE_WarningBorder_Corner</defName>
+		<label>warning border corner</label>
+		<description>A simple, paintable warning border. To be placed in the corner.</description>
+		<graphicData>
+			<texPath>Things/Building/BorderProps/BorderWarningCorner</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<color>(154,146,74)</color>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+	</ThingDef>
 </Defs>

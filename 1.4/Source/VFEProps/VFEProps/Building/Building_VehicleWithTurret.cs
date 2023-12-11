@@ -45,7 +45,8 @@ namespace VFEProps
         {
             try
             {
-                graphic = (Graphic_Single)GraphicDatabase.Get<Graphic_Single>(GetExtension.turretToDraw, ShaderDatabase.CutoutComplex, GetExtension.drawSize, DrawColor);
+                Shader shader = GetExtension.forceNoMask ? ShaderDatabase.DefaultShader : ShaderDatabase.CutoutComplex;
+                graphic = (Graphic_Single)GraphicDatabase.Get<Graphic_Single>(GetExtension.turretToDraw, shader, GetExtension.drawSize, DrawColor);
             }
             catch (Exception) {  }
         }

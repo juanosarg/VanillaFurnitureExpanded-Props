@@ -627,4 +627,11 @@
 		<priority>34</priority>
 		<prop>VFEPD_OilSmear</prop>
 	</VFEProps.PropDef>
+		<VFEProps.PropDef>
+		<defName>VFE_Prop_Furniture_Gibbet</defName>
+		<category>VFE_PropCategory_Furniture</category>		
+		<priority>52</priority>
+		<prop>VFEPD_FakeGibbetCage</prop>
+
+	</VFEProps.PropDef>
 </Defs>

@@ -11,7 +11,6 @@
 			<color>(133,97,67)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
@@ -39,7 +38,6 @@
 			<color>(162,157,152)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-	
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
@@ -67,7 +65,6 @@
 			<color>(105,105,105)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
@@ -95,7 +92,6 @@
 			<color>(133,97,67)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		
 		<castEdgeShadows>False</castEdgeShadows>
 		<blockWind>true</blockWind>
 		<passability>PassThroughOnly</passability>
@@ -766,6 +762,68 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_FakeSarcophagus</defName>
+		<label>fake sarcophagus</label>
+		<description>A fake sarcophagus with nothing inside. Sealed shut.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/SarcophagusFull</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<color>(105,95,97)</color>
+		</graphicData>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+		<pathCost>42</pathCost>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_FakeGrave</defName>
+		<label>fake grave</label>
+		<description>A fake grave with nothing buried beneath it.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/GraveFull</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+		
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>15</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+		<pathCost>42</pathCost>
 		<uiIconScale>1</uiIconScale>
 		<building>
 			<isInert>true</isInert>

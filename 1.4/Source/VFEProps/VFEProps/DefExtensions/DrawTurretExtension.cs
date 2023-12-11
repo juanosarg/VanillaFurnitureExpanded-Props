@@ -11,6 +11,7 @@ namespace VFEProps
         public string turretToDraw;
         public Vector2 drawSize;
         public TurretRotationDef offset;
+        public bool forceNoMask = false;
     }
 
 }
