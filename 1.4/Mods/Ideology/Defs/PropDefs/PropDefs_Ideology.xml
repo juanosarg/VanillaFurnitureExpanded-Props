@@ -634,4 +634,58 @@
 		<prop>VFEPD_FakeGibbetCage</prop>
 
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Rays</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>500</priority>
+		<prop>VFEPD_Mote_RitualGlowRays</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Totem</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>501</priority>
+		<prop>VFEPD_Mote_TotemOutline</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_Position</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>502</priority>
+		<prop>VFEPD_Mote_RolePositionHighlight</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_PawnPosition</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>503</priority>
+		<prop>VFEPD_Mote_RolePawnHighlight</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_SpikePipe</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>504</priority>
+		<prop>VFEPD_Mote_SpikePipe</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TechLinesA</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>505</priority>
+		<prop>VFEPD_Mote_RitualTechLineA</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TechLinesB</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>506</priority>
+		<prop>VFEPD_Mote_RitualTechLineB</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_TechLinesC</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>507</priority>
+		<prop>VFEPD_Mote_RitualTechLineC</prop>		
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>VFE_Prop_Effecter_GlowSingleRay</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>508</priority>
+		<prop>VFEPD_Mote_RitualGlowSingleRay</prop>		
+	</VFEProps.PropDef>
 </Defs>
